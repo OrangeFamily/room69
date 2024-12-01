@@ -1,0 +1,83 @@
+.backdrop {
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.626);
+  transition: opacity 500ms linear, visibility 500ms linear;
+  overflow-y: scroll;
+}
+.modal {
+  font-family: centuryGotic;
+  text-align: center;
+  color: white;
+  background-color: rgb(25, 26, 27);
+  // background-image: url(./img/fon2.jpg);
+  // background-size: contain;
+  width: 600px;
+  height: 900px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* transform: scale(.2); */
+  /* opacity: 1; */
+  /* transition: all 1s linear; */
+  /* visibility: hidden; */
+  box-shadow: 0px 0px 15px 15px rgb(255 106 0);
+  align-items: center;
+  animation: scaleOn 500ms linear;
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 245px;
+    height: 400px;
+  }
+}
+
+.modal img {
+  margin-top: 20px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 215px;
+  }
+}
+.itemTitle {
+  
+  margin-top: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+  padding: 7px 0;
+  text-transform: uppercase;
+  font-size: 50px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 20px;
+    width: 235px;
+  }
+}
+.itemText{
+  font-size: 20px;
+  text-transform: lowercase;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 10px;
+  }
+}
+
+@keyframes scaleOn {
+  0% {
+    opacity: 0;
+    scale: 0.2;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+.imgSize{
+  width: 100%;
+}
