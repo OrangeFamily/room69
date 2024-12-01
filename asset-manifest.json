@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/room69/static/css/main.0f2f7f6a.css",
+    "main.js": "/room69/static/js/main.8ae54f72.js",
+    "static/media/JaranaR.png": "/room69/static/media/JaranaR.6379a6380a15c02be276.png",
+    "static/media/JaranaB.png": "/room69/static/media/JaranaB.7e7e873f70bee6fc593e.png",
+    "static/media/inst.png": "/room69/static/media/inst.da61275da83501aa7a6f.png",
+    "static/media/aperol.webp": "/room69/static/media/aperol.853faa0bc6dd3146cded.webp",
+    "static/media/xenta.webp": "/room69/static/media/xenta.f1abe57ca562584903fc.webp",
+    "static/media/campary.webp": "/room69/static/media/campary.c38df340fc6f4ecf6c9a.webp",
+    "index.html": "/room69/index.html",
+    "main.0f2f7f6a.css.map": "/room69/static/css/main.0f2f7f6a.css.map",
+    "main.8ae54f72.js.map": "/room69/static/js/main.8ae54f72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f2f7f6a.css",
+    "static/js/main.8ae54f72.js"
+  ]
+}
