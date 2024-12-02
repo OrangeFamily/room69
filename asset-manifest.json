@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/room69/static/css/main.305048bf.css",
-    "main.js": "/room69/static/js/main.c05e483f.js",
+    "main.css": "/room69/static/css/main.1e5136ea.css",
+    "main.js": "/room69/static/js/main.75718182.js",
     "static/media/pszzasvin.png": "/room69/static/media/pszzasvin.0c3188145c61b4b9f615.png",
     "static/media/hamonmacarella2.png": "/room69/static/media/hamonmacarella2.66772654868daf91c683.png",
     "static/media/sirgrusha.png": "/room69/static/media/sirgrusha.f41e9e0927b7b6ae58ff.png",
@@ -38,11 +38,11 @@
     "static/media/dubl-chik.webp": "/room69/static/media/dubl-chik.8de09d7a1703603a430e.webp",
     "static/media/corona.webp": "/room69/static/media/corona.06e33848279998f2a963.webp",
     "index.html": "/room69/index.html",
-    "main.305048bf.css.map": "/room69/static/css/main.305048bf.css.map",
-    "main.c05e483f.js.map": "/room69/static/js/main.c05e483f.js.map"
+    "main.1e5136ea.css.map": "/room69/static/css/main.1e5136ea.css.map",
+    "main.75718182.js.map": "/room69/static/js/main.75718182.js.map"
   },
   "entrypoints": [
-    "static/css/main.305048bf.css",
-    "static/js/main.c05e483f.js"
+    "static/css/main.1e5136ea.css",
+    "static/js/main.75718182.js"
   ]
 }
