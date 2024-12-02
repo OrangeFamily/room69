@@ -3,7 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import Typography from '@mui/material/Typography';
+// import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -40,9 +40,9 @@ const Header = () => {
       <AppBar position="static">
         <Toolbar>
           {/* Логотип */}
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Restaurant Name
-          </Typography>
+          </Typography> */}
 
           {/* Навігація для великих екранів */}
           <Box sx={{ display: { xs: 'none', md: 'block' } }}>
