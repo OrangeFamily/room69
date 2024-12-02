@@ -1,18 +1,31 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
-  AccordionContent,
 } from "@radix-ui/react-accordion";
 import { List } from "components/comp/List/List";
 import { Modal } from "components/comp/Modal/Modal";
 import { menuData } from "components/Menu/data/bar";
 import s from "./Main.module.scss";
 
+const AnimatedAccordionContent = ({ children, isOpen }) => (
+  <motion.div
+    initial={{ height: 0, opacity: 0 }}
+    animate={isOpen ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }}
+    transition={{ duration: 0.3, ease: "easeInOut" }}
+    className={s.animatedContent}
+  >
+    {children}
+  </motion.div>
+);
+
 const Main = () => {
   const [showModal, setShowModal] = useState(false);
   const [objectModal, setObjectModal] = useState({});
+  const [openCategories, setOpenCategories] = useState({}); // Відкриті категорії
+  const [openSubcategories, setOpenSubcategories] = useState({}); // Відкриті підкатегорії
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
@@ -23,21 +36,36 @@ const Main = () => {
     setShowModal((prev) => !prev);
   };
 
+  const handleToggleCategory = (index) => {
+    setOpenCategories((prev) => ({
+      ...prev,
+      [index]: !prev[index],
+    }));
+  };
+
+  const handleToggleSubcategory = (categoryIndex, subIndex) => {
+    setOpenSubcategories((prev) => ({
+      ...prev,
+      [`${categoryIndex}-${subIndex}`]: !prev[`${categoryIndex}-${subIndex}`],
+    }));
+  };
+
   return (
     <div className={s.main}>
-      {/* Головний рівень категорій */}
       <Accordion type="multiple" collapsible className={s.accordion}>
-        {menuData.map((category, index) => (
+        {menuData.map((category, categoryIndex) => (
           <AccordionItem
-            key={index}
-            value={`category-${index}`}
+            key={categoryIndex}
+            value={`category-${categoryIndex}`}
             className={s.accordionItem}
           >
-            <AccordionTrigger className={s.trigger}>
+            <AccordionTrigger
+              className={s.trigger}
+              onClick={() => handleToggleCategory(categoryIndex)}
+            >
               <h2 className={s.categoryTitle}>{category.category}</h2>
             </AccordionTrigger>
-            <AccordionContent className={s.content}>
-              {/* Вкладений рівень підкатегорій */}
+            <AnimatedAccordionContent isOpen={!!openCategories[categoryIndex]}>
               <Accordion type="multiple" collapsible>
                 {category.subcategories.map((subcategory, subIndex) => (
                   <AccordionItem
@@ -45,17 +73,31 @@ const Main = () => {
                     value={`subcategory-${subIndex}`}
                     className={s.accordionSubItem}
                   >
-                    <AccordionTrigger className={s.subTrigger}>
-                      <h3 className={s.subcategoryTitle}>{subcategory.subcategory}</h3>
+                    <AccordionTrigger
+                      className={s.subTrigger}
+                      onClick={() =>
+                        handleToggleSubcategory(categoryIndex, subIndex)
+                      }
+                    >
+                      <h3 className={s.subcategoryTitle}>
+                        {subcategory.subcategory}
+                      </h3>
                     </AccordionTrigger>
-                    <AccordionContent className={s.subContent}>
-                      {/* Список страв */}
-                      <List data={subcategory.items} onModal={dataModal} subcategory={subcategory.subcategory} />
-                    </AccordionContent>
+                    <AnimatedAccordionContent
+                      isOpen={
+                        !!openSubcategories[`${categoryIndex}-${subIndex}`]
+                      }
+                    >
+                      <List
+                        data={subcategory.items}
+                        onModal={dataModal}
+                        subcategory={subcategory.subcategory}
+                      />
+                    </AnimatedAccordionContent>
                   </AccordionItem>
                 ))}
               </Accordion>
-            </AccordionContent>
+            </AnimatedAccordionContent>
           </AccordionItem>
         ))}
       </Accordion>

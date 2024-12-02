@@ -11,18 +11,18 @@
 
 .accordionItem,
 .accordionSubItem {
-  width: 100%; // Робимо елементи однакової ширини
+  width: 100%; 
 }
 
 .trigger,
 .subTrigger {
   width: 100%;
   display: flex;
-  justify-content: space-between; // Розподіл тексту/елементів по краях
+  justify-content: center;
   align-items: center;
   padding: 10px 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
+  background-color: #f5f5f500;
+  border: none;
   cursor: pointer;
 }
 
@@ -37,12 +37,23 @@
     padding: 0;
   }
 }
-
-.categoryTitle,
-.subcategoryTitle {
+.categoryTitle {
   margin: 0;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
+  border-bottom: 2px solid black;
 }
 
+.subcategoryTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight:normal;
+  text-align: left;
+}
+
+.animatedContent {
+  overflow: hidden; // Забезпечує плавність розгортання
+  position: relative;
+  z-index: 1; // Контент позаду
+}

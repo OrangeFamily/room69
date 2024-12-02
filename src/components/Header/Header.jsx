@@ -28,7 +28,7 @@ const Header = () => {
         <ListItem button component="a" href="tel:+380939179177">
           <ListItemText primary="+38 093 91 79 177" />
         </ListItem>
-        <ListItem button component="a" href="https://instagram.com/orange.bar_club?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+        <ListItem button component="a" href="https://www.instagram.com/room69.restaurant?igsh=NHp4Mnk4bWdycWp0" target="_blank" rel="noreferrer">
           <ListItemText primary="Instagram" />
         </ListItem>
       </List>
@@ -57,7 +57,7 @@ const Header = () => {
             <Button color="inherit" href="tel:+380939179177">
               +38 093 91 79 177
             </Button>
-            <Button color="inherit" href="https://instagram.com/orange.bar_club?igshid=YmMyMTA2M2Y=" 
+            <Button color="inherit" href="https://www.instagram.com/room69.restaurant?igsh=NHp4Mnk4bWdycWp0" 
               target="_blank" 
               rel="noreferrer" 
               className={s.link}>
