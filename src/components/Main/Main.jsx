@@ -1,14 +1,18 @@
-import { motion } from 'framer-motion';
-import React, { useState } from 'react';
-import s from './Main.module.scss';
-import { List } from 'components/comp/List/List';
-import { barData } from 'components/Menu/Bar/data/bar';
-import { Modal } from 'components/comp/Modal/Modal';
+import React, { useState } from "react";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@radix-ui/react-accordion";
+import { List } from "components/comp/List/List";
+import { Modal } from "components/comp/Modal/Modal";
+import { menuData } from "components/Menu/data/bar";
+import s from "./Main.module.scss";
 
 const Main = () => {
   const [showModal, setShowModal] = useState(false);
   const [objectModal, setObjectModal] = useState({});
-  const [open, setOpen] = useState(null);
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
@@ -16,46 +20,46 @@ const Main = () => {
   };
 
   const toggleModal = () => {
-    setShowModal(showModal => !showModal);
-  };
-
-  const toggleAccordion = index => {
-    setOpen(open === index ? null : index);
+    setShowModal((prev) => !prev);
   };
 
   return (
     <div className={s.main}>
-      {barData.map((category, index) => (
-        <div key={index} className={s.chapter}>
-          <h2 onClick={() => toggleAccordion(index)} className={s.titleItem}>
-            {category.category}
-          </h2>
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{
-              height: open === index ? 'auto' : 0,
-              opacity: open === index ? 1 : 0,
-            }}
-            exit={{
-              height: 0,
-              opacity: 0,
-            }}
-            transition={{
-              height: { duration: 0.5, ease: 'easeInOut' },
-              opacity: {
-                duration: 0.3,
-                ease: 'easeInOut',
-                delay: open === index ? 0.2 : 0,
-              },
-            }}
-            className={s.collapseContent}
+      {/* Головний рівень категорій */}
+      <Accordion type="multiple" collapsible className={s.accordion}>
+        {menuData.map((category, index) => (
+          <AccordionItem
+            key={index}
+            value={`category-${index}`}
+            className={s.accordionItem}
           >
-            {open === index && (
-              <List data={category.items} onModal={dataModal} />
-            )}
-          </motion.div>
-        </div>
-      ))}
+            <AccordionTrigger className={s.trigger}>
+              <h2 className={s.categoryTitle}>{category.category}</h2>
+            </AccordionTrigger>
+            <AccordionContent className={s.content}>
+              {/* Вкладений рівень підкатегорій */}
+              <Accordion type="multiple" collapsible>
+                {category.subcategories.map((subcategory, subIndex) => (
+                  <AccordionItem
+                    key={subIndex}
+                    value={`subcategory-${subIndex}`}
+                    className={s.accordionSubItem}
+                  >
+                    <AccordionTrigger className={s.subTrigger}>
+                      <h3 className={s.subcategoryTitle}>{subcategory.subcategory}</h3>
+                    </AccordionTrigger>
+                    <AccordionContent className={s.subContent}>
+                      {/* Список страв */}
+                      <List data={subcategory.items} onModal={dataModal} subcategory={subcategory.subcategory} />
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </AccordionContent>
+          </AccordionItem>
+        ))}
+      </Accordion>
+
       {showModal && (
         <Modal objectModal={objectModal} toggleModal={toggleModal} />
       )}
