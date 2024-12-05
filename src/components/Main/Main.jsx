@@ -1,20 +1,22 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
-} from "@radix-ui/react-accordion";
-import { List } from "components/comp/List/List";
-import { Modal } from "components/comp/Modal/Modal";
-import { menuData } from "components/Menu/data/bar";
-import s from "./Main.module.scss";
+} from '@radix-ui/react-accordion';
+import { List } from 'components/comp/List/List';
+import { Modal } from 'components/comp/Modal/Modal';
+import { menuData } from 'components/Menu/data/bar';
+import s from './Main.module.scss';
 
 const AnimatedAccordionContent = ({ children, isOpen }) => (
   <motion.div
     initial={{ height: 0, opacity: 0 }}
-    animate={isOpen ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }}
-    transition={{ duration: 0.3, ease: "easeInOut" }}
+    animate={
+      isOpen ? { height: 'auto', opacity: 1 } : { height: 0, opacity: 0 }
+    }
+    transition={{ duration: 0.3, ease: 'easeInOut' }}
     className={s.animatedContent}
   >
     {children}
@@ -27,24 +29,24 @@ const Main = () => {
   const [openCategories, setOpenCategories] = useState({}); // Відкриті категорії
   const [openSubcategories, setOpenSubcategories] = useState({}); // Відкриті підкатегорії
 
-  const dataModal = (title, price, text, src) => {
+  const dataModal = (title, price, text, src, category) => {
     toggleModal();
-    setObjectModal({ title, price, text, src });
+    setObjectModal({ title, price, text, src, category });
   };
 
   const toggleModal = () => {
-    setShowModal((prev) => !prev);
+    setShowModal(prev => !prev);
   };
 
-  const handleToggleCategory = (index) => {
-    setOpenCategories((prev) => ({
+  const handleToggleCategory = index => {
+    setOpenCategories(prev => ({
       ...prev,
       [index]: !prev[index],
     }));
   };
 
   const handleToggleSubcategory = (categoryIndex, subIndex) => {
-    setOpenSubcategories((prev) => ({
+    setOpenSubcategories(prev => ({
       ...prev,
       [`${categoryIndex}-${subIndex}`]: !prev[`${categoryIndex}-${subIndex}`],
     }));
@@ -90,7 +92,9 @@ const Main = () => {
                     >
                       <List
                         data={subcategory.items}
-                        onModal={dataModal}
+                        onModal={(title, price, text, src) =>
+                          dataModal(title, price, text, src, category.category)
+                        }
                         subcategory={subcategory.subcategory}
                       />
                     </AnimatedAccordionContent>
