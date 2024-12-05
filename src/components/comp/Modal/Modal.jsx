@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import s from './Modal.module.scss';
+import oops from '../List/img/oops.webp'
 
 export const Modal = ({ objectModal, toggleModal }) => {
   const [isImageLoading, setIsImageLoading] = useState(true); // Стан завантаження
@@ -34,7 +35,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
         {isImageLoading && <div className={s.loader}>Loading...</div>}
         {/* Зображення */}
         <img
-          src={objectModal.src}
+          src={objectModal.src || oops}
           alt={objectModal.title}
           className={s.imgSize}
           onLoad={handleImageLoad} // Викликається, коли зображення завантажилось

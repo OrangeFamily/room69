@@ -66,7 +66,7 @@ const Main = () => {
               <h2 className={s.categoryTitle}>{category.category}</h2>
             </AccordionTrigger>
             <AnimatedAccordionContent isOpen={!!openCategories[categoryIndex]}>
-              <Accordion type="multiple" collapsible>
+              <Accordion type="multiple" collapsible="true">
                 {category.subcategories.map((subcategory, subIndex) => (
                   <AccordionItem
                     key={subIndex}
