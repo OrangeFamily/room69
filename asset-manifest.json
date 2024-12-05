@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/room69/static/css/main.d4951913.css",
-    "main.js": "/room69/static/js/main.7799f7a6.js",
+    "main.css": "/room69/static/css/main.32eefdab.css",
+    "main.js": "/room69/static/js/main.9514e968.js",
+    "static/media/fon.JPG": "/room69/static/media/fon.16bd8f66c1d1b6bcce3f.JPG",
     "static/media/inst.png": "/room69/static/media/inst.da61275da83501aa7a6f.png",
     "static/media/obrayen.webp": "/room69/static/media/obrayen.d5cd2274f2bdf7669bba.webp",
-    "static/media/IMG_6348.webp": "/room69/static/media/IMG_6348.af83ba4af21571658fa1.webp",
     "static/media/teksunr.webp": "/room69/static/media/teksunr.191d3e5c1f9e316cc172.webp",
     "static/media/ginton.webp": "/room69/static/media/ginton.dbe3a6aa0ca638c8f23c.webp",
     "static/media/tropic.webp": "/room69/static/media/tropic.f3bb93608451068df674.webp",
@@ -133,11 +133,11 @@
     "static/media/terrar.webp": "/room69/static/media/terrar.d8492b353ab4f28309a2.webp",
     "static/media/morshnon.webp": "/room69/static/media/morshnon.1ee724932b9db95f8f00.webp",
     "index.html": "/room69/index.html",
-    "main.d4951913.css.map": "/room69/static/css/main.d4951913.css.map",
-    "main.7799f7a6.js.map": "/room69/static/js/main.7799f7a6.js.map"
+    "main.32eefdab.css.map": "/room69/static/css/main.32eefdab.css.map",
+    "main.9514e968.js.map": "/room69/static/js/main.9514e968.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4951913.css",
-    "static/js/main.7799f7a6.js"
+    "static/css/main.32eefdab.css",
+    "static/js/main.9514e968.js"
   ]
 }
