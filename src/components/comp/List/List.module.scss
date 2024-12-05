@@ -14,9 +14,9 @@
     padding: 15px;
     // width: 100%;
     // max-width: 600px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    // background-color: #fff;
+    // border: 1px solid #ddd;
+    // border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -49,7 +49,7 @@
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
     margin: 0;
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@
   .price {
     font-size: 1rem;
     font-weight: bold;
-    color: #28a745;
+    color: #ffffff;
     margin: 5px;
     @media (min-width: 320px) and (max-width: 590px) {
         font-size: 13px;
@@ -95,8 +95,11 @@
   }
   
   .text {
-    font-size: 0.9rem;
-    color: #666;
+    font-size: 15px;
+    color: #ffffff;
     margin-top: 5px;
+    @media (min-width: 320px) and (max-width: 590px) {
+      font-size: 10px;
+    }
   }
   
