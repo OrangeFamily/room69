@@ -5,7 +5,7 @@ export const List = ({ data, onModal, subcategory }) => {
   return data.map(e => (
     <div
       key={e.id}
-      onClick={() => onModal(e.title, e.price, e.text, e.src)}
+      onClick={() => onModal(e.title, e.price, e.text, e.src, e.description)}
       className={s.item}
     >
       <img src={e.src || oops} alt={e.title} className={s.sizeImg} />

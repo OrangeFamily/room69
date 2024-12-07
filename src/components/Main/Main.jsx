@@ -29,9 +29,9 @@ const Main = () => {
   const [openCategories, setOpenCategories] = useState({}); // Відкриті категорії
   const [openSubcategories, setOpenSubcategories] = useState({}); // Відкриті підкатегорії
 
-  const dataModal = (title, price, text, src, category) => {
+  const dataModal = (title, price, text, src, category, description) => {
     toggleModal();
-    setObjectModal({ title, price, text, src, category });
+    setObjectModal({ title, price, text, src, category, description });
   };
 
   const toggleModal = () => {
@@ -92,8 +92,8 @@ const Main = () => {
                     >
                       <List
                         data={subcategory.items}
-                        onModal={(title, price, text, src) =>
-                          dataModal(title, price, text, src, category.category)
+                        onModal={(title, price, text, src, description) =>
+                          dataModal(title, price, text, src, category.category, description)
                         }
                         subcategory={subcategory.subcategory}
                       />

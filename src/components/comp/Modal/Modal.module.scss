@@ -9,20 +9,44 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
+
+  @media (max-width: 768px) {
+    align-items: flex-end; /* Вирівнюємо модалку до низу */
+  }
 }
 
+
 .modal {
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Завжди центруємо по горизонталі */
   background-color: #000; /* Білий фон модального вікна */
-  border-radius: 12px;
+  border-radius: 12px 12px 0 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  width: 80%;
-  max-width: 450px; /* Зменшена максимальна ширина */
+  width: 100%;
+  max-width: 450px; /* Максимальна ширина */
   padding: 20px;
   text-align: center;
-  animation: fadeIn 0.3s ease-out; /* Анімація появи */
-  
+
+  animation: slideUp 0.4s ease-out;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+    animation: slideUpMobile 0.4s ease-out;
+  }
 }
+
+@keyframes slideUpMobile {
+  from {
+    transform: translate(-50%, 100%); /* Починає за межами екрану */
+  }
+  to {
+    transform: translate(-50%, 0); /* Завершує в потрібній позиції */
+  }
+}
+
 
 .itemTitle {
   text-transform: uppercase;
