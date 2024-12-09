@@ -11,7 +11,7 @@
 
 .accordionItem,
 .accordionSubItem {
-  width: 100%; 
+  width: 100%;
 }
 
 .trigger,
@@ -49,7 +49,7 @@
 .subcategoryTitle {
   margin: 0;
   font-size: 16px;
-  font-weight:normal;
+  font-weight: normal;
   text-align: left;
   color: #ff4aed;
 }
@@ -58,4 +58,31 @@
   overflow: hidden; // Забезпечує плавність розгортання
   position: relative;
   z-index: 1; // Контент позаду
+}
+// @font-face {
+//   font-family: 'Sansation';
+//   src:
+//     url('../comp/font/sens/SansationRegular.woff2') format('woff2'),
+//     url('../comp/font/sens/SansationRegular.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: 'evo';
+//   src:
+//     url('../comp/font/SansEVO/Madeevolvesansevo.woff2') format('woff2'),
+//     url('../comp/font/SansEVO/Madeevolvesansevo.woff') format('woff');
+//   font-weight: 200;
+//   // font-style: bold;
+// }
+
+.evo {
+  font-family: 'MADE Evolve Sans EVO';
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.sensation {
+  font-family: 'Sansation';
+  color: #ffffff;
+  text-transform: uppercase;
 }

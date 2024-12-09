@@ -10,6 +10,7 @@ import { Modal } from 'components/comp/Modal/Modal';
 import { menuData } from 'components/Menu/data/bar';
 import s from './Main.module.scss';
 
+
 const AnimatedAccordionContent = ({ children, isOpen }) => (
   <motion.div
     initial={{ height: 0, opacity: 0 }}
@@ -54,6 +55,8 @@ const Main = () => {
 
   return (
     <div className={s.main}>
+      <h1 className={s.evo}>кухня</h1>
+      <h1 className={s.sensation}>кухня</h1>
       <Accordion type="multiple" collapsible className={s.accordion}>
         {menuData.map((category, categoryIndex) => (
           <AccordionItem
