@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/room69/static/css/main.db3c79b2.css",
+    "main.css": "/room69/static/css/main.633d0a56.css",
     "main.js": "/room69/static/js/main.ff101e5e.js",
     "static/media/fon.JPG": "/room69/static/media/fon.16bd8f66c1d1b6bcce3f.JPG",
     "static/media/inst.png": "/room69/static/media/inst.da61275da83501aa7a6f.png",
     "static/media/pancanella.png": "/room69/static/media/pancanella.bdb07fbea1b863174303.png",
+    "static/media/madeevolvesansevoMedium.otf": "/room69/static/media/madeevolvesansevoMedium.396833bc683a20fa9c9a.otf",
     "static/media/obrayen.webp": "/room69/static/media/obrayen.d5cd2274f2bdf7669bba.webp",
     "static/media/teksunr.webp": "/room69/static/media/teksunr.191d3e5c1f9e316cc172.webp",
     "static/media/ginton.webp": "/room69/static/media/ginton.dbe3a6aa0ca638c8f23c.webp",
@@ -19,6 +20,7 @@
     "static/media/martini.webp": "/room69/static/media/martini.c79351b2307420613cec.webp",
     "static/media/tea.webp": "/room69/static/media/tea.e7233f811f2481c6d382.webp",
     "static/media/zelbanan.webp": "/room69/static/media/zelbanan.49b31455792150e2a010.webp",
+    "static/media/SansationLight.ttf": "/room69/static/media/SansationLight.c0d37cac32ee23060372.ttf",
     "static/media/laguna.webp": "/room69/static/media/laguna.65965df85af1d7549bce.webp",
     "static/media/med.webp": "/room69/static/media/med.fc52e2a6aacdb8a4cf04.webp",
     "static/media/frambi.webp": "/room69/static/media/frambi.f0d2e85defc657657c93.webp",
@@ -134,11 +136,11 @@
     "static/media/terrar.webp": "/room69/static/media/terrar.d8492b353ab4f28309a2.webp",
     "static/media/morshnon.webp": "/room69/static/media/morshnon.1ee724932b9db95f8f00.webp",
     "index.html": "/room69/index.html",
-    "main.db3c79b2.css.map": "/room69/static/css/main.db3c79b2.css.map",
+    "main.633d0a56.css.map": "/room69/static/css/main.633d0a56.css.map",
     "main.ff101e5e.js.map": "/room69/static/js/main.ff101e5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.db3c79b2.css",
+    "static/css/main.633d0a56.css",
     "static/js/main.ff101e5e.js"
   ]
 }
