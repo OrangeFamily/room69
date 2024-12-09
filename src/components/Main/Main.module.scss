@@ -59,30 +59,24 @@
   position: relative;
   z-index: 1; // Контент позаду
 }
-// @font-face {
-//   font-family: 'Sansation';
-//   src:
-//     url('../comp/font/sens/SansationRegular.woff2') format('woff2'),
-//     url('../comp/font/sens/SansationRegular.woff') format('woff');
-//   font-weight: 400;
-//   font-style: normal;
-// }
-// @font-face {
-//   font-family: 'evo';
-//   src:
-//     url('../comp/font/SansEVO/Madeevolvesansevo.woff2') format('woff2'),
-//     url('../comp/font/SansEVO/Madeevolvesansevo.woff') format('woff');
-//   font-weight: 200;
-//   // font-style: bold;
-// }
+@font-face {
+  font-family: SansationLight;
+  src: url('../fonts/SansationLight.ttf');
+  
+}
+@font-face {
+  font-family: madeevolvesansevoMedium;
+  src: url('../fonts/madeevolvesansevoMedium.otf');
+  
+}
 
 .evo {
-  font-family: 'MADE Evolve Sans EVO';
+  font-family: 'madeevolvesansevoMedium';
   color: #ffffff;
   text-transform: uppercase;
 }
 .sensation {
-  font-family: 'Sansation';
+  font-family: 'SansationLight';
   color: #ffffff;
   text-transform: uppercase;
 }
