@@ -44,6 +44,8 @@
   text-align: left;
   border-bottom: 2px solid black;
   color: #ff4aed;
+  font-family: 'madeevolvesansevoMedium';
+  text-transform: uppercase;
 }
 
 .subcategoryTitle {
@@ -52,6 +54,8 @@
   font-weight: normal;
   text-align: left;
   color: #ff4aed;
+  font-family: 'madeevolvesansevoMedium';
+  text-transform: uppercase;
 }
 
 .animatedContent {
@@ -59,24 +63,11 @@
   position: relative;
   z-index: 1; // Контент позаду
 }
-@font-face {
-  font-family: SansationLight;
-  src: url('../fonts/SansationLight.ttf');
-  
-}
-@font-face {
-  font-family: madeevolvesansevoMedium;
-  src: url('../fonts/madeevolvesansevoMedium.otf');
-  
-}
+
 
 .evo {
   font-family: 'madeevolvesansevoMedium';
   color: #ffffff;
   text-transform: uppercase;
 }
-.sensation {
-  font-family: 'SansationLight';
-  color: #ffffff;
-  text-transform: uppercase;
-}
+

@@ -19,3 +19,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: SansationLight;
+  src: url('./components/fonts/SansationLight.ttf');
+  
+}
+@font-face {
+  font-family: YsabeauSCMedium;
+  src: url('./components/fonts/YsabeauSCMedium.ttf');
+  
+}
+@font-face {
+  font-family: madeevolvesansevoMedium;
+  src: url('./components/fonts/madeevolvesansevoMedium.otf');
+  
+}

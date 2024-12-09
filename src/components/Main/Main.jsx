@@ -55,8 +55,6 @@ const Main = () => {
 
   return (
     <div className={s.main}>
-      <h1 className={s.evo}>кухня</h1>
-      <h1 className={s.sensation}>кухня</h1>
       <Accordion type="multiple" collapsible className={s.accordion}>
         {menuData.map((category, categoryIndex) => (
           <AccordionItem
