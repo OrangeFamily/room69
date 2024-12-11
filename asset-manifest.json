@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.c1780ab8.css",
-    "main.js": "/room69/static/js/main.3726c666.js",
+    "main.js": "/room69/static/js/main.0443dbfa.js",
     "static/media/fon.JPG": "/room69/static/media/fon.16bd8f66c1d1b6bcce3f.JPG",
     "static/media/inst.png": "/room69/static/media/inst.da61275da83501aa7a6f.png",
     "static/media/madeevolvesansevoMedium.otf": "/room69/static/media/madeevolvesansevoMedium.396833bc683a20fa9c9a.otf",
@@ -53,12 +53,14 @@
     "static/media/springRoll.webp": "/room69/static/media/springRoll.309bd67edd0d77dd2fcf.webp",
     "static/media/kanoni.webp": "/room69/static/media/kanoni.fc150244d2e434b4022b.webp",
     "static/media/krilyaBafalo.webp": "/room69/static/media/krilyaBafalo.2aea8a2db1bf61335e46.webp",
+    "static/media/myasnsTarilka.webp": "/room69/static/media/myasnsTarilka.c6549aaf6c422228d1bc.webp",
     "static/media/marengob.webp": "/room69/static/media/marengob.2711b5cedecbd0c9d66c.webp",
     "static/media/alazBel.webp": "/room69/static/media/alazBel.96fc0c7929e1546511a4.webp",
     "static/media/bail.webp": "/room69/static/media/bail.2b2bc0a18b2c693e9704.webp",
     "static/media/garbuzoviyKremSupZKrevetkami.webp": "/room69/static/media/garbuzoviyKremSupZKrevetkami.5ee277d6343ea3a1252c.webp",
     "static/media/vitelloTonnato.webp": "/room69/static/media/vitelloTonnato.0ed07e31c9c889349ce8.webp",
     "static/media/mlinciKrepSuzett.webp": "/room69/static/media/mlinciKrepSuzett.c7c73d7958abf3cfbc8e.webp",
+    "static/media/ribneFile.webp": "/room69/static/media/ribneFile.8bf78614e01b9c47a3a8.webp",
     "static/media/rby.webp": "/room69/static/media/rby.2894f869f58f3078d791.webp",
     "static/media/fragolinob.webp": "/room69/static/media/fragolinob.b4fbb1d0a033c42a6551.webp",
     "static/media/kobmerlo.webp": "/room69/static/media/kobmerlo.3510248a817414f287ce.webp",
@@ -68,6 +70,7 @@
     "static/media/sparkling.webp": "/room69/static/media/sparkling.33301f615e5189f2eea6.webp",
     "static/media/fragolinor.webp": "/room69/static/media/fragolinor.a7b5603deed26dbe6a8c.webp",
     "static/media/up.webp": "/room69/static/media/up.a04d6f507316935dfa9b.webp",
+    "static/media/tarilkaGurmana.webp": "/room69/static/media/tarilkaGurmana.e5920b01904487ef4489.webp",
     "static/media/rbws.webp": "/room69/static/media/rbws.ec2bdd9cf68f8cac625a.webp",
     "static/media/kartoplyaFree.webp": "/room69/static/media/kartoplyaFree.11b2fb5984c9142b8191.webp",
     "static/media/gratenzkrevetkami.webp": "/room69/static/media/gratenzkrevetkami.1fba9e232056fca2472d.webp",
@@ -79,6 +82,7 @@
     "static/media/stakeLosos.webp": "/room69/static/media/stakeLosos.c4e9c45736cf5ce4df9a.webp",
     "static/media/tomyam.webp": "/room69/static/media/tomyam.01df6e9d6f6c833e8ff0.webp",
     "static/media/asti.webp": "/room69/static/media/asti.9e55aaadccbb9798d80a.webp",
+    "static/media/palitraSala.webp": "/room69/static/media/palitraSala.609c5303e2691942f20d.webp",
     "static/media/saladRostb.webp": "/room69/static/media/saladRostb.e06ca8cdbd015a38f586.webp",
     "static/media/latin.webp": "/room69/static/media/latin.4b7f86652bda0964d5d3.webp",
     "static/media/pastaKarbonara.webp": "/room69/static/media/pastaKarbonara.fceb822d7b937883f69a.webp",
@@ -103,6 +107,7 @@
     "static/media/pastaGrushaGargonzola.webp": "/room69/static/media/pastaGrushaGargonzola.bd57000cba0fa820c1cc.webp",
     "static/media/nisuaz.webp": "/room69/static/media/nisuaz.5b260f676bd581933bfa.webp",
     "static/media/omletZTigrKrevetkami.webp": "/room69/static/media/omletZTigrKrevetkami.7eddbf6e347a3b3c9ff0.webp",
+    "static/media/fruktAssorti.webp": "/room69/static/media/fruktAssorti.a7cc891f6fedbf10ae69.webp",
     "static/media/terrar.webp": "/room69/static/media/terrar.d8492b353ab4f28309a2.webp",
     "static/media/morshnon.webp": "/room69/static/media/morshnon.1ee724932b9db95f8f00.webp",
     "static/media/saladLosos.webp": "/room69/static/media/saladLosos.26e6cab16e90cb969560.webp",
@@ -149,10 +154,10 @@
     "static/media/meks.webp": "/room69/static/media/meks.d122e5842fce97e693cf.webp",
     "index.html": "/room69/index.html",
     "main.c1780ab8.css.map": "/room69/static/css/main.c1780ab8.css.map",
-    "main.3726c666.js.map": "/room69/static/js/main.3726c666.js.map"
+    "main.0443dbfa.js.map": "/room69/static/js/main.0443dbfa.js.map"
   },
   "entrypoints": [
     "static/css/main.c1780ab8.css",
-    "static/js/main.3726c666.js"
+    "static/js/main.0443dbfa.js"
   ]
 }
