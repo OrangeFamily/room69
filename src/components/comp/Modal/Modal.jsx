@@ -31,14 +31,20 @@ export const Modal = ({ objectModal, toggleModal }) => {
   return (
     <div className={s.backdrop} onClick={handleCloseBackdrop}>
       <div className={s.modal}>
-      <img
+        {/* Кнопка для закриття модалки */}
+        <button className={s.closeButton} onClick={toggleModal}>
+          &times;
+        </button>
+
+        <img
           src={objectModal.src || oops}
           alt={objectModal.title || 'Image not available'}
-          className={s.imgSize} 
+          className={s.imgSize}
           onLoad={handleImageLoad}
           style={{ display: isImageLoading ? 'none' : 'block' }}
         />
-        <div >
+
+        <div>
           <h2 className={s.itemTitle}>{objectModal.title}</h2>
           <h3 className={s.itemTitle}>{objectModal.price}</h3>
 
@@ -52,8 +58,6 @@ export const Modal = ({ objectModal, toggleModal }) => {
         </div>
 
         {isImageLoading && <div className={s.loader}>Loading...</div>}
-
-        
       </div>
     </div>
   );
