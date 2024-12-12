@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/room69/static/css/main.c1780ab8.css",
-    "main.js": "/room69/static/js/main.0443dbfa.js",
+    "main.css": "/room69/static/css/main.166bfec5.css",
+    "main.js": "/room69/static/js/main.e66373ec.js",
     "static/media/fon.JPG": "/room69/static/media/fon.16bd8f66c1d1b6bcce3f.JPG",
     "static/media/inst.png": "/room69/static/media/inst.da61275da83501aa7a6f.png",
     "static/media/madeevolvesansevoMedium.otf": "/room69/static/media/madeevolvesansevoMedium.396833bc683a20fa9c9a.otf",
     "static/media/YsabeauSCMedium.ttf": "/room69/static/media/YsabeauSCMedium.dc5c222da04b499c7ae8.ttf",
+    "static/media/Logo.png": "/room69/static/media/Logo.76c81808589a7be3e2af.png",
     "static/media/obrayen.webp": "/room69/static/media/obrayen.d5cd2274f2bdf7669bba.webp",
     "static/media/sandora.webp": "/room69/static/media/sandora.e007c3415fc9a3ab4afd.webp",
     "static/media/martini.webp": "/room69/static/media/martini.c79351b2307420613cec.webp",
@@ -153,11 +154,11 @@
     "static/media/sunrise.webp": "/room69/static/media/sunrise.ce6275ff91bea40027be.webp",
     "static/media/meks.webp": "/room69/static/media/meks.d122e5842fce97e693cf.webp",
     "index.html": "/room69/index.html",
-    "main.c1780ab8.css.map": "/room69/static/css/main.c1780ab8.css.map",
-    "main.0443dbfa.js.map": "/room69/static/js/main.0443dbfa.js.map"
+    "main.166bfec5.css.map": "/room69/static/css/main.166bfec5.css.map",
+    "main.e66373ec.js.map": "/room69/static/js/main.e66373ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1780ab8.css",
-    "static/js/main.0443dbfa.js"
+    "static/css/main.166bfec5.css",
+    "static/js/main.e66373ec.js"
   ]
 }
