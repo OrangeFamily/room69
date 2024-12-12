@@ -10,6 +10,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import s from './Header.module.scss';
+import logo from './img/Logo.png'
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -83,7 +84,9 @@ const Header = () => {
               <MenuIcon />
             </IconButton>
           </Box>
+          <img src={logo} alt="logo" className={s.logo}/>
         </Toolbar>
+       
       </AppBar>
 
       {/* Drawer для мобільного меню */}

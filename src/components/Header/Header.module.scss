@@ -23,3 +23,10 @@
   width: 45px;
   fill: #0f0e0d;
 }
+.logo{
+  height: 70px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    height: 30px;
+    margin-left: auto;
+  }
+}
