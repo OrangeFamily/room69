@@ -27,7 +27,17 @@ export const Modal = ({ objectModal, toggleModal }) => {
   const handleImageLoad = () => {
     setIsImageLoading(false);
   };
-
+  document.querySelectorAll('.Modal_itemTitle__NWYxE').forEach((el) => {
+    // Перевіряємо, чи елемент вже містить обгорнутий текст
+    if (el.innerHTML.includes('<span class="number">')) return;
+  
+    const content = el.innerHTML;
+  
+    // Обгортання чисел разом із текстом після них у <span>
+    const updatedContent = content.replace(/(\d+\D*)$/, '<span class="number">$1</span>');
+  
+    el.innerHTML = updatedContent;
+  });
   return (
     <div className={s.backdrop} onClick={handleCloseBackdrop}>
       <div className={s.modal}>
@@ -46,7 +56,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
 
         <div>
           <h2 className={s.itemTitle}>{objectModal.title}</h2>
-          <h3 className={s.itemTitle}>{objectModal.price}</h3>
+          <h3 className={s.itemPrice}>{objectModal.price}</h3>
 
           {objectModal.category !== 'Кухня' && (
             <div className={s.itemText}>{objectModal.text}</div>

@@ -34,3 +34,8 @@ code {
   src: url('./components/fonts/madeevolvesansevoMedium.otf');
   
 }
+
+.number {
+  margin-left: 0.5em; /* Відступ зліва */
+  text-transform: lowercase;
+}

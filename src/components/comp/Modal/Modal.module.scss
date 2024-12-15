@@ -49,7 +49,6 @@
 
 
 .itemTitle {
-  text-transform: uppercase;
   font-size: 1.3rem; /* Зменшено розмір тексту */
   font-weight: bold;
   color: #ffffff;
@@ -57,7 +56,13 @@
   font-family: 'YsabeauSCMedium';
   text-transform: uppercase;
 }
-
+.itemPrice {
+  font-size: 1.3rem; /* Зменшено розмір тексту */
+  font-weight: bold;
+  color: #ffffff;
+  margin: 10px 0;
+  font-family: 'YsabeauSCMedium';
+}
 .itemText {
   font-size: 0.95rem; /* Зменшено розмір опису */
   color: #ffffff;

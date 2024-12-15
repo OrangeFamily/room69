@@ -1,6 +1,18 @@
 import s from './List.module.scss';
 import oops from './img/oops.webp';
 export const List = ({ data, onModal, subcategory }) => {
+  document.querySelectorAll('.List_title__ARlhG ').forEach((el) => {
+    // Перевіряємо, чи елемент вже містить обгорнутий текст
+    if (el.innerHTML.includes('<span class="number">')) return;
+  
+    const content = el.innerHTML;
+  
+    // Обгортання чисел разом із текстом після них у <span>
+    const updatedContent = content.replace(/(\d+\D*)$/, '<span class="number">$1</span>');
+  
+    el.innerHTML = updatedContent;
+  });
+  
   
   return data.map(e => (
     <div

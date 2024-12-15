@@ -1844,16 +1844,6 @@ export const menuData = [
           },
           {
             id: 4,
-            title: 'ripe mangoes ',
-            price: '',
-            text: `Манго,
-Сік мультифрукт,
-Сироп манго,
-Лайм,
-Тонік`,
-          },
-          {
-            id: 5,
             title: 'spicy ginger 300мл',
             price: '135 грн',
             text: `Сироп кориця,
