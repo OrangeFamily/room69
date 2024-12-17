@@ -6,7 +6,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
   const [isImageLoading, setIsImageLoading] = useState(true);
 
   useEffect(() => {
-    const handleKeyDown = (e) => {
+    const handleKeyDown = e => {
       if (e.code === 'Escape') {
         toggleModal();
       }
@@ -19,7 +19,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
     setIsImageLoading(true); // Скидання стану завантаження при зміні зображення
   }, [objectModal.src]);
 
-  const handleCloseBackdrop = (e) => {
+  const handleCloseBackdrop = e => {
     if (e.target.nodeName !== 'DIV') return;
     toggleModal();
   };
@@ -27,13 +27,16 @@ export const Modal = ({ objectModal, toggleModal }) => {
   const handleImageLoad = () => {
     setIsImageLoading(false);
   };
-  document.querySelectorAll('#itemTitle').forEach((el) => {
+  document.querySelectorAll('#itemTitle').forEach(el => {
     if (!el.innerHTML.includes('<span class="number">')) {
       const content = el.innerHTML;
-  
+
       // Знаходимо числа з "г" або "мл" разом із можливим текстом після них
-      const updatedContent = content.replace(/(\d+\s*(г|мл))/gi, '<span class="number">$1</span>');
-  
+      const updatedContent = content.replace(
+        /(\d+\s*(г|мл))/gi,
+        '<span class="number">$1</span>'
+      );
+
       el.innerHTML = updatedContent;
     }
   });
@@ -54,15 +57,21 @@ export const Modal = ({ objectModal, toggleModal }) => {
         />
 
         <div>
-          <h2 id='itemTitle' className={s.itemTitle}>{objectModal.title}</h2>
+          <h2 id="itemTitle" className={s.itemTitle}>
+            {objectModal.title}
+          </h2>
           <h3 className={s.itemPrice}>{objectModal.price}</h3>
 
-          {objectModal.category !== 'Кухня' && (
+          {objectModal.category === 'Бар' && (
             <div className={s.itemText}>{objectModal.text}</div>
           )}
 
-          {(objectModal.category === 'Кухня' || objectModal.category === 'Банкетне меню') && (
-            <div className={s.itemText}>{objectModal.description}</div>
+          {objectModal.category !== 'Бар' && (
+            <div className={s.itemText}>
+              {objectModal.description?.trim()
+                ? objectModal.description
+                : objectModal.text}
+            </div>
           )}
         </div>
 
