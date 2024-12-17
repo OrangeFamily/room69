@@ -27,7 +27,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
   const handleImageLoad = () => {
     setIsImageLoading(false);
   };
-  document.querySelectorAll('.Modal_itemTitle__5Tn0h').forEach((el) => {
+  document.querySelectorAll('#itemTitle').forEach((el) => {
     // Перевіряємо, чи елемент вже містить обгорнутий текст
     if (el.innerHTML.includes('<span class="number">')) return;
   
@@ -55,7 +55,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
         />
 
         <div>
-          <h2 className={s.itemTitle}>{objectModal.title}</h2>
+          <h2 id='itemTitle' className={s.itemTitle}>{objectModal.title}</h2>
           <h3 className={s.itemPrice}>{objectModal.price}</h3>
 
           {objectModal.category !== 'Кухня' && (

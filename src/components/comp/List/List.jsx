@@ -1,7 +1,7 @@
 import s from './List.module.scss';
 import oops from './img/oops.webp';
 export const List = ({ data, onModal, subcategory }) => {
-  document.querySelectorAll('.List_title__78ACw ').forEach((el) => {
+  document.querySelectorAll('#itemTitle').forEach((el) => {
     // Перевіряємо, чи елемент вже містить обгорнутий текст
     if (el.innerHTML.includes('<span class="number">')) return;
   
@@ -23,7 +23,7 @@ export const List = ({ data, onModal, subcategory }) => {
       <img src={e.src || oops} alt={e.title} className={s.sizeImg} />
       <div className={s.itemBox}>
         <div className={s.itemMain}>
-          <h3 className={`${s.title} ${subcategory === 'Пиво' ? s.beer : ''}`}>
+          <h3 id='itemTitle' className={`${s.title} ${subcategory === 'Пиво' ? s.beer : ''}`}>
             {e.title}
             {e.isNew ? <span className={s.newWord}>NEW</span> : null}
           </h3>
