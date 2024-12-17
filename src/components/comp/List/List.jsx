@@ -1,7 +1,7 @@
 import s from './List.module.scss';
 import oops from './img/oops.webp';
 export const List = ({ data, onModal, subcategory }) => {
-  document.querySelectorAll('.List_title__ARlhG ').forEach((el) => {
+  document.querySelectorAll('.List_title__78ACw ').forEach((el) => {
     // Перевіряємо, чи елемент вже містить обгорнутий текст
     if (el.innerHTML.includes('<span class="number">')) return;
   

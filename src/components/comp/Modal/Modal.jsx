@@ -27,7 +27,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
   const handleImageLoad = () => {
     setIsImageLoading(false);
   };
-  document.querySelectorAll('.Modal_itemTitle__NWYxE').forEach((el) => {
+  document.querySelectorAll('.Modal_itemTitle__5Tn0h').forEach((el) => {
     // Перевіряємо, чи елемент вже містить обгорнутий текст
     if (el.innerHTML.includes('<span class="number">')) return;
   
