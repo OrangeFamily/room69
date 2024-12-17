@@ -62,7 +62,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
             <div className={s.itemText}>{objectModal.text}</div>
           )}
 
-          {objectModal.category === 'Кухня' && (
+          {(objectModal.category === 'Кухня' || objectModal.category === 'Банкетне меню') && (
             <div className={s.itemText}>{objectModal.description}</div>
           )}
         </div>
