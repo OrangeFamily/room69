@@ -2,15 +2,14 @@ import s from './List.module.scss';
 import oops from './img/oops.webp';
 export const List = ({ data, onModal, subcategory }) => {
   document.querySelectorAll('#itemTitle').forEach((el) => {
-    // Перевіряємо, чи елемент вже містить обгорнутий текст
-    if (el.innerHTML.includes('<span class="number">')) return;
+    if (!el.innerHTML.includes('<span class="number">')) {
+      const content = el.innerHTML;
   
-    const content = el.innerHTML;
+      // Знаходимо числа з "г" або "мл" разом із можливим текстом після них
+      const updatedContent = content.replace(/(\d+\s*(г|мл))/gi, '<span class="number">$1</span>');
   
-    // Обгортання чисел разом із текстом після них у <span>
-    const updatedContent = content.replace(/(\d+\D*)$/, '<span class="number">$1</span>');
-  
-    el.innerHTML = updatedContent;
+      el.innerHTML = updatedContent;
+    }
   });
   
   
