@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.4f33137c.css",
-    "main.js": "/room69/static/js/main.fe32e524.js",
+    "main.js": "/room69/static/js/main.7c97050d.js",
     "static/media/fon.JPG": "/room69/static/media/fon.16bd8f66c1d1b6bcce3f.JPG",
     "static/media/inst.png": "/room69/static/media/inst.da61275da83501aa7a6f.png",
     "static/media/madeevolvesansevoMedium.otf": "/room69/static/media/madeevolvesansevoMedium.396833bc683a20fa9c9a.otf",
@@ -155,10 +155,10 @@
     "static/media/meks.webp": "/room69/static/media/meks.d122e5842fce97e693cf.webp",
     "index.html": "/room69/index.html",
     "main.4f33137c.css.map": "/room69/static/css/main.4f33137c.css.map",
-    "main.fe32e524.js.map": "/room69/static/js/main.fe32e524.js.map"
+    "main.7c97050d.js.map": "/room69/static/js/main.7c97050d.js.map"
   },
   "entrypoints": [
     "static/css/main.4f33137c.css",
-    "static/js/main.fe32e524.js"
+    "static/js/main.7c97050d.js"
   ]
 }
