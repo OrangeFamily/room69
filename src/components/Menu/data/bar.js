@@ -322,7 +322,7 @@ export const menuData = [
           },
           {
             id: 6,
-            title: 'Паста з креветками 280г',
+            title: 'чорна Паста з креветками 280г',
             price: '260 грн',
             src: require('../img/pastazKrevetkami.webp'),
             text: `Паста чорна, креветка тигрова, томат черрі, вершки, пармезан, часник, базилік`,
@@ -330,7 +330,7 @@ export const menuData = [
           },
           {
             id: 7,
-            title: 'Паста карбонара 250г',
+            title: 'чорна Паста карбонара 250г',
             price: '210 грн',
             src: require('../img/pastaKarbonara.webp'),
             text: `Паста чорна, бекон, яйце куряче, пармезан, базилік`,
@@ -338,7 +338,7 @@ export const menuData = [
           },
           {
             id: 8,
-            title: 'Паста з грушою та горгондзолою 280г',
+            title: 'чорна Паста з грушою та горгондзолою 280г',
             price: '240 грн',
             src: require('../img/pastaGrushaGargonzola.webp'),
             text: `Паста чорна, груша, дор-блю, вершки, пармезан, кедрові горіхи`,
@@ -713,8 +713,8 @@ export const menuData = [
           //},
           {
             id: 5,
-            title: 'Перша Гільдія Поважна (Україна) 1л',
-            price: '1000 грн',
+            title: 'Перша Гільдія Поважна (Україна) 0,5 л',
+            price: '500 грн',
             src: require('../img/persha.webp'),
             text: '50мл - 50 грн',
           },
@@ -1797,7 +1797,7 @@ Ease Foam`,
           },
           {
             id: 8,
-            title: 'Каре телятини з гибним соусом 100г (від 200г)',
+            title: 'Каре телятини з грибним соусом 100г (від 200г)',
             price: '110 грн',
             src: require('../img/kareTrlyatini.webp'),
             text: '',
