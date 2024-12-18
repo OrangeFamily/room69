@@ -410,7 +410,7 @@ export const menuData = [
           },
           {
             id: 2,
-            title: 'Тірамісу 130г',
+            title: 'Тірамісу 160г',
             price: '120 грн',
             src: require('../img/tiramisu.webp'),
             text: `Крем-сир,
