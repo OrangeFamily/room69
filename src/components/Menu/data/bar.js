@@ -1741,7 +1741,7 @@ Ease Foam`,
           {
             id: 1,
             title: 'Асорті солінь 400г',
-            price: '200 грн',
+            price: '280 грн',
             src: require('../img/asortiSolin.webp'),
             text: '',
             description:
