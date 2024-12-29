@@ -32,8 +32,8 @@ const Header = () => {
         <ListItem button component="a" href="https://misteram.com.ua/chernigov/orangebar" target="_blank" rel="noreferrer">
           <ListItemText primary="ДОСТАВКА" sx={{ color: '#fff' }} />
         </ListItem>
-        <ListItem button component="a" href="tel:+380939179177">
-          <ListItemText primary="+38 093 91 79 177" sx={{ color: '#fff' }} />
+        <ListItem button component="a" href="tel:+380636969469">
+          <ListItemText primary="+380636969469" sx={{ color: '#fff' }} />
         </ListItem>
         <ListItem button component="a" href="https://www.instagram.com/room69.restaurant?igsh=NHp4Mnk4bWdycWp0" target="_blank" rel="noreferrer">
           <ListItemText primary="Instagram" sx={{ color: '#fff' }} />
@@ -58,8 +58,8 @@ const Header = () => {
             >
               ДОСТАВКА
             </Button>
-            <Button color="inherit" href="tel:+380939179177">
-              +38 093 91 79 177
+            <Button color="inherit" href="tel:+380636969469">
+              +380636969469
             </Button>
             <Button
               color="inherit"
