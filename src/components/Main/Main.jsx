@@ -118,7 +118,7 @@ const Main = () => {
           </AccordionItem>
         ))}
       </Accordion>
-      <h2  className={s.categoryTitle} onClick={openKaraokeFile}>Пісні караоке</h2>
+      <h2  className={`${s.categoryTitle} ${s.karaoke}`} onClick={openKaraokeFile}>Пісні караоке</h2>
       {showModal && (
         <Modal objectModal={objectModal} toggleModal={toggleModal} />
       )}
