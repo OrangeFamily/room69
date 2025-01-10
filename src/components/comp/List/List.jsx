@@ -1,6 +1,6 @@
 import s from './List.module.scss';
 import oops from './img/oops.webp';
-export const List = ({ data, onModal, subcategory }) => {
+export const List = ({ data, onModal, subcategory, category }) => {
   document.querySelectorAll('#itemTitle').forEach((el) => {
     if (!el.innerHTML.includes('<span class="number">')) {
       const content = el.innerHTML;
@@ -19,7 +19,7 @@ export const List = ({ data, onModal, subcategory }) => {
       onClick={() => onModal(e.title, e.price, e.text, e.src, e.description)}
       className={s.item}
     >
-      <img src={e.src || oops} alt={e.title} className={s.sizeImg} />
+      <img src={e.src || oops} alt={e.title} className={`${s.sizeImg} ${category === 'Пісні караоке' ? s.music : ''}`} />
       <div className={s.itemBox}>
         <div className={s.itemMain}>
           <h3 id='itemTitle' className={`${s.title} ${subcategory === 'Пиво' ? s.beer : ''}`}>

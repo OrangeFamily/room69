@@ -9,7 +9,7 @@ import { List } from 'components/comp/List/List';
 import { Modal } from 'components/comp/Modal/Modal';
 import { menuData } from 'components/Menu/data/bar';
 import s from './Main.module.scss';
-
+import karaoke from './sorted_songs_by_artist.txt'
 
 const AnimatedAccordionContent = ({ children, isOpen }) => (
   <motion.div
@@ -53,6 +53,10 @@ const Main = () => {
     }));
   };
 
+  const openKaraokeFile = () => {
+    window.open(karaoke, '_blank'); // Відкриває файл у новій вкладці
+  };
+
   return (
     <div className={s.main}>
       <Accordion type="multiple" collapsible className={s.accordion}>
@@ -94,9 +98,17 @@ const Main = () => {
                       <List
                         data={subcategory.items}
                         onModal={(title, price, text, src, description) =>
-                          dataModal(title, price, text, src, category.category, description)
+                          dataModal(
+                            title,
+                            price,
+                            text,
+                            src,
+                            category.category,
+                            description
+                          )
                         }
                         subcategory={subcategory.subcategory}
+                        category={category.category}
                       />
                     </AnimatedAccordionContent>
                   </AccordionItem>
@@ -106,7 +118,7 @@ const Main = () => {
           </AccordionItem>
         ))}
       </Accordion>
-
+      <h2  className={s.categoryTitle} onClick={openKaraokeFile}>Пісні караоке</h2>
       {showModal && (
         <Modal objectModal={objectModal} toggleModal={toggleModal} />
       )}
