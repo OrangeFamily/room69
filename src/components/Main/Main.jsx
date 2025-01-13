@@ -9,7 +9,7 @@ import { List } from 'components/comp/List/List';
 import { Modal } from 'components/comp/Modal/Modal';
 import { menuData } from 'components/Menu/data/bar';
 import s from './Main.module.scss';
-import karaoke from './sorted_songs_by_artist.txt'
+import karaoke from './sorted_songs_by_artist.txt';
 
 const AnimatedAccordionContent = ({ children, isOpen }) => (
   <motion.div
@@ -73,52 +73,74 @@ const Main = () => {
               <h2 className={s.categoryTitle}>{category.category}</h2>
             </AccordionTrigger>
             <AnimatedAccordionContent isOpen={!!openCategories[categoryIndex]}>
-              <Accordion type="multiple" collapsible="true">
-                {category.subcategories.map((subcategory, subIndex) => (
-                  <AccordionItem
-                    key={subIndex}
-                    value={`subcategory-${subIndex}`}
-                    className={s.accordionSubItem}
-                  >
-                    <AccordionTrigger
-                      className={s.subTrigger}
-                      onClick={() =>
-                        handleToggleSubcategory(categoryIndex, subIndex)
-                      }
+              {category.category === 'Банкетне меню' ? (
+                <List
+                data={category.subcategories.flatMap(sub => sub.items)}
+                  onModal={(title, price, text, src, description) =>
+                    dataModal(
+                      title,
+                      price,
+                      text,
+                      src,
+                      category.category,
+                      description
+                    )
+                  }
+                  category={category.category}
+                />
+              ) : (
+                <Accordion type="multiple" collapsible="true">
+                  {category.subcategories.map((subcategory, subIndex) => (
+                    <AccordionItem
+                      key={subIndex}
+                      value={`subcategory-${subIndex}`}
+                      className={s.accordionSubItem}
                     >
-                      <h3 className={s.subcategoryTitle}>
-                        {subcategory.subcategory}
-                      </h3>
-                    </AccordionTrigger>
-                    <AnimatedAccordionContent
-                      isOpen={
-                        !!openSubcategories[`${categoryIndex}-${subIndex}`]
-                      }
-                    >
-                      <List
-                        data={subcategory.items}
-                        onModal={(title, price, text, src, description) =>
-                          dataModal(
-                            title,
-                            price,
-                            text,
-                            src,
-                            category.category,
-                            description
-                          )
+                      <AccordionTrigger
+                        className={s.subTrigger}
+                        onClick={() =>
+                          handleToggleSubcategory(categoryIndex, subIndex)
                         }
-                        subcategory={subcategory.subcategory}
-                        category={category.category}
-                      />
-                    </AnimatedAccordionContent>
-                  </AccordionItem>
-                ))}
-              </Accordion>
+                      >
+                        <h3 className={s.subcategoryTitle}>
+                          {subcategory.subcategory}
+                        </h3>
+                      </AccordionTrigger>
+                      <AnimatedAccordionContent
+                        isOpen={
+                          !!openSubcategories[`${categoryIndex}-${subIndex}`]
+                        }
+                      >
+                        <List
+                          data={subcategory.items}
+                          onModal={(title, price, text, src, description) =>
+                            dataModal(
+                              title,
+                              price,
+                              text,
+                              src,
+                              category.category,
+                              description
+                            )
+                          }
+                          subcategory={subcategory.subcategory}
+                          category={category.category}
+                        />
+                      </AnimatedAccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              )}
             </AnimatedAccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
-      <h2  className={`${s.categoryTitle} ${s.karaoke}`} onClick={openKaraokeFile}>Пісні караоке</h2>
+      <h2
+        className={`${s.categoryTitle} ${s.karaoke}`}
+        onClick={openKaraokeFile}
+      >
+        Пісні караоке
+      </h2>
       {showModal && (
         <Modal objectModal={objectModal} toggleModal={toggleModal} />
       )}
