@@ -71,7 +71,7 @@ const Main = () => {
               className={s.trigger}
               onClick={() => handleToggleCategory(categoryIndex)}
             >
-              <h2 className={s.categoryTitle}>{category.category}</h2>
+              <h2 className={`${s.categoryTitle} ${category.category=== 'Краш меню' ? s.krush : ''}`}>{category.category}</h2>
             </AccordionTrigger>
             <AnimatedAccordionContent isOpen={!!openCategories[categoryIndex]}>
               {category.category === 'Банкетне меню' ? (

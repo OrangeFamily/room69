@@ -19,7 +19,7 @@ export const List = ({ data, onModal, subcategory, category }) => {
       onClick={() => onModal(e.title, e.price, e.text, e.src, e.description)}
       className={s.item}
     >
-      <img src={e.src || oops} alt={e.title} className={`${s.sizeImg} ${category === 'Пісні караоке' ? s.music : ''}`} />
+      <img src={e.src || oops} alt={e.title} className={`${s.sizeImg} ${category === 'Краш меню' ? s.music : ''}`} />
       <div className={s.itemBox}>
         <div className={s.itemMain}>
           <h3 id='itemTitle' className={`${s.title} ${subcategory === 'Пиво' ? s.beer : ''}`}>
