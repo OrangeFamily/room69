@@ -9,7 +9,7 @@ import { List } from 'components/comp/List/List';
 import { Modal } from 'components/comp/Modal/Modal';
 import { menuData } from 'components/Menu/data/bar';
 import s from './Main.module.scss';
-import karaoke from './sorted_songs_by_artist.txt';
+// import karaoke from './sorted_songs_by_artist.txt';
 
 const AnimatedAccordionContent = ({ children, isOpen }) => (
   <motion.div
@@ -54,7 +54,8 @@ const Main = () => {
   };
 
   const openKaraokeFile = () => {
-    window.open(karaoke, '_blank'); // Відкриває файл у новій вкладці
+    // window.open(karaoke, '_blank'); 
+    window.location.href = "https://orangefamily.github.io/music/"
   };
 
   return (
