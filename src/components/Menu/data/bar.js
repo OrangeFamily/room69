@@ -924,7 +924,7 @@ export const menuData = [
           },
           {
             id: 14,
-            title: 'sant orsola (Італія) біл./сух. 0,75л',
+            title: 'sant orsola (Італія) біл./напівсол. 0,75л',
             price: '600 грн',
             src: require('../img/santOrsola.webp'),
             text: '200мл - 160 грн',
