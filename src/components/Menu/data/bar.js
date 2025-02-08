@@ -1224,6 +1224,13 @@ export const menuData = [
             src: require('../img/borj.webp'),
             text: ``,
           },
+          {
+              id:10,
+              title:"Швепс тонік  0.75 л",
+              price:"100 грн",
+              src: require('../img/tonic.png'),
+              text:"",
+          },
         ],
       },
       {
