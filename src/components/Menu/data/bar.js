@@ -754,7 +754,7 @@ export const menuData = [
           {
             id: 2,
             title: 'Асті Мартіні (Італія) 0,75 л',
-            price: '750 грн',
+            price: '950 грн',
             src: require('../img/asti.webp'),
             text: ``,
           },
