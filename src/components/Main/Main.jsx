@@ -55,7 +55,7 @@ const Main = () => {
 
   const openKaraokeFile = () => {
     // window.open(karaoke, '_blank'); 
-    window.location.href = "https://orangefamily.github.io/music/"
+    window.location.href = "https://orangefamily.github.io/mainMusic/"
   };
 
   return (
