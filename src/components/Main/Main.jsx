@@ -7,7 +7,7 @@ import {
 } from '@radix-ui/react-accordion';
 import { List } from 'components/comp/List/List';
 import { Modal } from 'components/comp/Modal/Modal';
-import { menuData } from 'components/Menu/data/bar';
+import { menuData } from 'components/Menu/data/data';
 import s from './Main.module.scss';
 // import karaoke from './sorted_songs_by_artist.txt';
 
