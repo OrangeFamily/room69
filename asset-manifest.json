@@ -1,8 +1,13 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.b5cf4d92.css",
-    "main.js": "/room69/static/js/main.50b96689.js",
-    "static/media/steykPay.jpg": "/room69/static/media/steykPay.935cdcc75ff928652d36.jpg",
+    "main.js": "/room69/static/js/main.b69f32fa.js",
+    "static/media/ribneFile.jpg": "/room69/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
+    "static/media/grebenci.jpg": "/room69/static/media/grebenci.a4f87375e4de608117d5.jpg",
+    "static/media/saladZVosem.jpg": "/room69/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
+    "static/media/brusketRost.jpg": "/room69/static/media/brusketRost.80364148194131772b91.jpg",
+    "static/media/steykPay.jpg": "/room69/static/media/steykPay.4cd69c9e43cf380b2991.jpg",
+    "static/media/brusketAnch.jpg": "/room69/static/media/brusketAnch.113ca344a24c23654c36.jpg",
     "static/media/frambi.jpg": "/room69/static/media/frambi.04fcd965a637540dd0cb.jpg",
     "static/media/fayniyjin.jpg": "/room69/static/media/fayniyjin.adb486c91e72c3f672ec.jpg",
     "static/media/Boulevardier.jpg": "/room69/static/media/Boulevardier.b74767f5df3f9cb07406.jpg",
@@ -128,7 +133,6 @@
     "static/media/garbuzoviyKremSupZKrevetkami.webp": "/room69/static/media/garbuzoviyKremSupZKrevetkami.5ee277d6343ea3a1252c.webp",
     "static/media/vitelloTonnato.webp": "/room69/static/media/vitelloTonnato.0ed07e31c9c889349ce8.webp",
     "static/media/mlinciKrepSuzett.webp": "/room69/static/media/mlinciKrepSuzett.c7c73d7958abf3cfbc8e.webp",
-    "static/media/ribneFile.webp": "/room69/static/media/ribneFile.8bf78614e01b9c47a3a8.webp",
     "static/media/rby.webp": "/room69/static/media/rby.2894f869f58f3078d791.webp",
     "static/media/fragolinob.webp": "/room69/static/media/fragolinob.b4fbb1d0a033c42a6551.webp",
     "static/media/kobmerlo.webp": "/room69/static/media/kobmerlo.3510248a817414f287ce.webp",
@@ -186,10 +190,10 @@
     "static/media/lemMalina.webp": "/room69/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/room69/index.html",
     "main.b5cf4d92.css.map": "/room69/static/css/main.b5cf4d92.css.map",
-    "main.50b96689.js.map": "/room69/static/js/main.50b96689.js.map"
+    "main.b69f32fa.js.map": "/room69/static/js/main.b69f32fa.js.map"
   },
   "entrypoints": [
     "static/css/main.b5cf4d92.css",
-    "static/js/main.50b96689.js"
+    "static/js/main.b69f32fa.js"
   ]
 }
