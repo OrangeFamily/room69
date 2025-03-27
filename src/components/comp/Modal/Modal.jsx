@@ -51,7 +51,8 @@ export const Modal = ({ objectModal, toggleModal }) => {
         <img
           src={objectModal.src || oops}
           alt={objectModal.title || 'Image not available'}
-          className={s.imgSize}
+          // className={s.imgSize}
+          className={`${s.imgSize} ${objectModal.category === 'Коктейлі' ? s.imgSizeCoct : ''}`}
           onLoad={handleImageLoad}
           style={{ display: isImageLoading ? 'none' : 'block' }}
         />
