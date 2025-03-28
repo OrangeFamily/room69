@@ -1901,7 +1901,7 @@ Ease Foam`,
             title: 'Фламінго Оранжа 300мл',
             price: '210 грн',
             text: `гордон'c середземноморський апельсин, сік ананасовий, сироп малиновий`,
-            src: require('../img/flamingo.jpg'),
+            src: require('../img/flamingoOr.jpg'),
             description: ``,
           },
           {
