@@ -29,6 +29,7 @@ const Main = () => {
   const [objectModal, setObjectModal] = useState({});
   const [openCategories, setOpenCategories] = useState({}); // Відкриті категорії
   const [openSubcategories, setOpenSubcategories] = useState({}); // Відкриті підкатегорії
+  const [showRules, setShowRules] = useState(false);
 
   const dataModal = (title, price, text, src, category, description, zvd) => {
     toggleModal();
