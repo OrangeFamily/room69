@@ -40,6 +40,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
       el.innerHTML = updatedContent;
     }
   });
+  console.log(objectModal)
   return (
     <div className={s.backdrop} onClick={handleCloseBackdrop}>
       <div className={s.modal}>
@@ -52,7 +53,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
           src={objectModal.src || oops}
           alt={objectModal.title || 'Image not available'}
           // className={s.imgSize}
-          className={`${s.imgSize} ${objectModal.category === 'Коктейлі' ? s.imgSizeCoct : ''}`}
+          className={`${s.imgSize} ${objectModal.zvd !== 'room' ? s.imgSizeCoct : ''}`}
           onLoad={handleImageLoad}
           style={{ display: isImageLoading ? 'none' : 'block' }}
         />

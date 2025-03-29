@@ -32,10 +32,10 @@ const Header = () => {
         <ListItem button component="a" href="https://misteram.com.ua/chernigov/orangebar" target="_blank" rel="noreferrer">
           <ListItemText primary="ДОСТАВКА" sx={{ color: '#fff' }} />
         </ListItem>
-        <ListItem button component="a" href="tel:+380636969469">
-          <ListItemText primary="+380636969469" sx={{ color: '#fff' }} />
+        <ListItem button component="a" href="tel:+380936900699">
+          <ListItemText primary="+380936900699" sx={{ color: '#fff' }} />
         </ListItem>
-        <ListItem button component="a" href="https://www.instagram.com/room69.restaurant?igsh=NHp4Mnk4bWdycWp0" target="_blank" rel="noreferrer">
+        <ListItem button component="a" href="https://instagram.com/orangery.lounge?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
           <ListItemText primary="Instagram" sx={{ color: '#fff' }} />
         </ListItem>
       </List>
@@ -52,18 +52,18 @@ const Header = () => {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'block' } }}>
             <Button
               color="inherit"
-              href="https://misteram.com.ua/chernigov/orangebar"
+              href="https://misteram.com.ua/chernigov/orangery"
               target="_blank"
               rel="noreferrer"
             >
               ДОСТАВКА
             </Button>
-            <Button color="inherit" href="tel:+380636969469">
-              +380636969469
+            <Button color="inherit" href="tel:+380936900699">
+              +380936900699
             </Button>
             <Button
               color="inherit"
-              href="https://www.instagram.com/room69.restaurant?igsh=NHp4Mnk4bWdycWp0"
+              href="https://instagram.com/orangery.lounge?igshid=YmMyMTA2M2Y="
               target="_blank"
               rel="noreferrer"
               className={s.link}

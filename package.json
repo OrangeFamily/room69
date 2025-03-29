@@ -1,8 +1,8 @@
 {
-  "name": "room69",
+  "name": "orangery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OrangeFamily.github.io/room69/",
+  "homepage": "https://OrangeFamily.github.io/orangery/",
   "dependencies": {
     "@chakra-ui/cli": "^3.2.2",
     "@chakra-ui/react": "^3.2.2",

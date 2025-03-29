@@ -30,9 +30,9 @@ const Main = () => {
   const [openCategories, setOpenCategories] = useState({}); // Відкриті категорії
   const [openSubcategories, setOpenSubcategories] = useState({}); // Відкриті підкатегорії
 
-  const dataModal = (title, price, text, src, category, description) => {
+  const dataModal = (title, price, text, src, category, description, zvd) => {
     toggleModal();
-    setObjectModal({ title, price, text, src, category, description });
+    setObjectModal({ title, price, text, src, category, description, zvd });
   };
 
   const toggleModal = () => {
@@ -53,11 +53,6 @@ const Main = () => {
     }));
   };
 
-  const openKaraokeFile = () => {
-    // window.open(karaoke, '_blank'); 
-    window.location.href = "https://orangefamily.github.io/mainMusic/"
-  };
-
   return (
     <div className={s.main}>
       <Accordion type="multiple" collapsible className={s.accordion}>
@@ -71,20 +66,25 @@ const Main = () => {
               className={s.trigger}
               onClick={() => handleToggleCategory(categoryIndex)}
             >
-              <h2 className={`${s.categoryTitle} ${category.category=== 'Краш меню' ? s.krush : ''}`}>{category.category}</h2>
+              <h2
+                className={`${s.categoryTitle} ${category.category === 'Краш меню' ? s.krush : ''}`}
+              >
+                {category.category}
+              </h2>
             </AccordionTrigger>
             <AnimatedAccordionContent isOpen={!!openCategories[categoryIndex]}>
               {category.category === 'Банкетне меню' ? (
                 <List
-                data={category.subcategories.flatMap(sub => sub.items)}
-                  onModal={(title, price, text, src, description) =>
+                  data={category.subcategories.flatMap(sub => sub.items)}
+                  onModal={(title, price, text, src, description, zvd,) =>
                     dataModal(
                       title,
                       price,
                       text,
                       src,
                       category.category,
-                      description
+                      description,
+                      zvd,
                     )
                   }
                   category={category.category}
@@ -114,14 +114,22 @@ const Main = () => {
                       >
                         <List
                           data={subcategory.items}
-                          onModal={(title, price, text, src, description) =>
+                          onModal={(
+                            title,
+                            price,
+                            text,
+                            src,
+                            description,
+                            zvd,
+                          ) =>
                             dataModal(
                               title,
                               price,
                               text,
                               src,
                               category.category,
-                              description
+                              description,
+                              zvd,
                             )
                           }
                           subcategory={subcategory.subcategory}
@@ -136,12 +144,7 @@ const Main = () => {
           </AccordionItem>
         ))}
       </Accordion>
-      <h2
-        className={`${s.categoryTitle} ${s.karaoke}`}
-        onClick={openKaraokeFile}
-      >
-        Пісні караоке
-      </h2>
+
       {showModal && (
         <Modal objectModal={objectModal} toggleModal={toggleModal} />
       )}
