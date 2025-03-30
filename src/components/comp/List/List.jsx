@@ -16,7 +16,7 @@ export const List = ({ data, onModal, subcategory, category }) => {
   return data.map(e => (
     <div
       key={e.id}
-      onClick={() => onModal(e.title, e.price, e.text, e.src, e.description, e.zvd)}
+      onClick={() => onModal(e.title, e.price, e.text, e.src, e.description)}
       className={s.item}
     >
       <img src={e.src || oops} alt={e.title} className={`${s.sizeImg} ${category === 'Краш меню' ? s.music : ''}`} />

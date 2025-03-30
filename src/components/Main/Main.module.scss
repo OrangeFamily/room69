@@ -43,18 +43,10 @@
   font-weight: bold;
   text-align: left;
   border-bottom: 2px solid black;
-  color: white;
-  background-color: #da1b5c;
+  color: #ff4aed;
   font-family: 'YsabeauSCMedium';
   text-transform: uppercase;
   cursor: pointer;
-  padding: 10px;
-  border-radius: 15px;
-  width: 220px;
-  text-align: center;
-  @media (min-width: 320px) and (max-width: 480px) {
-    font-size: 19px;
-  }
 }
 
 .subcategoryTitle {
@@ -62,14 +54,9 @@
   font-size: 16px;
   font-weight: normal;
   text-align: left;
-  color: white;
+  color: #ff4aed;
   font-family: 'YsabeauSCMedium';
   text-transform: uppercase;
-  background-color: #da1b5b81;
-  border-radius: 10px;
-  padding: 5px ;
-  width: 500px;
-  text-align: center;
 }
 
 .animatedContent {
