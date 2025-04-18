@@ -1324,7 +1324,13 @@ export const menuData = [
             src: require('../img/cof.webp'),
             text: '',
           },
-
+          {
+            id: 10,
+            title: 'Бамбл кава 0,250л',
+            price: '75 грн',
+            src: require('../img/cof.webp'),
+            text: `сік, кава, сироп в асортименті`,
+          },
           {
             id: 9,
             title: 'какао 0,250л',
