@@ -1251,14 +1251,14 @@ export const menuData = [
           {
             id: 2,
             title: 'Red Bull tropical 0,25л',
-            price: '110 грн',
+            price: '120 грн',
             src: require('../img/rby.webp'),
             text: ``,
           },
           {
             id: 3,
             title: 'Red Bull sugarfree 0,25л',
-            price: '110 грн',
+            price: '120 грн',
             src: require('../img/rbws.webp'),
             text: ``,
           },
