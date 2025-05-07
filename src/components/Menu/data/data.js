@@ -835,11 +835,18 @@ export const menuData = [
         subcategory: 'ЛІКЕРИ',
         items: [
           {
-            id: 1,
+            id: 5,
             title: 'Бейліз Оріджинал (Ірландія) 1л',
             price: '2000 грн',
             src: require('../img/bail.webp'),
             text: '50мл - 100 грн',
+          },
+          {
+            id: 1,
+            title: 'Becherovka (Чехія) 1л',
+            price: '1800 грн',
+            src: require('../img/beherovka.png'),
+            text: '50мл - 90 грн',
           },
           {
             id: 2,
@@ -1617,6 +1624,20 @@ export const menuData = [
       {
         subcategory: 'Клаcика',
         items: [
+          {
+            id: 31,
+            title: 'Porn Star Martini 150 мл',
+            price: '290 грн',
+            src: '',
+            text: 'горілка Absolut Vanilla, пюре маракуйя, лікер triple sec, фреш лимону, сироп цукровий, просеко',
+          },
+          {
+            id: 32,
+            title: 'Бетон 250 мл',
+            price: '180 грн',
+            src: '',
+            text: 'Бехеровка, тонік, апельсин',
+          },
           {
             id: 1,
             title: 'Mimosa 180мл',
