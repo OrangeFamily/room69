@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.85a7beaa.css",
-    "main.js": "/room69/static/js/main.569d8522.js",
+    "main.js": "/room69/static/js/main.b79dec2c.js",
     "static/media/ribneFile.jpg": "/room69/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/room69/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/room69/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -68,6 +68,7 @@
     "static/media/lososZapecheniy.webp": "/room69/static/media/lososZapecheniy.fb095607d2b5cb6d60f9.webp",
     "static/media/stakeSvinini.webp": "/room69/static/media/stakeSvinini.413dd67752b844768678.webp",
     "static/media/MartiniExtraDry.png": "/room69/static/media/MartiniExtraDry.365615eb7ce05ce004b3.png",
+    "static/media/sirpalki.jpg": "/room69/static/media/sirpalki.b27ac40a35b0213a183b.jpg",
     "static/media/inst.png": "/room69/static/media/inst.da61275da83501aa7a6f.png",
     "static/media/blacklabel.png": "/room69/static/media/blacklabel.85b9bb929823ae599631.png",
     "static/media/kartoplyaZTravami.webp": "/room69/static/media/kartoplyaZTravami.b5153e9492afc305a839.webp",
@@ -162,7 +163,6 @@
     "static/media/latin.webp": "/room69/static/media/latin.4b7f86652bda0964d5d3.webp",
     "static/media/pastaKarbonara.webp": "/room69/static/media/pastaKarbonara.fceb822d7b937883f69a.webp",
     "static/media/pancanella.webp": "/room69/static/media/pancanella.c69a9b0c447924738229.webp",
-    "static/media/sirniKroketi.webp": "/room69/static/media/sirniKroketi.e2c2d2e400399ece918f.webp",
     "static/media/kurFilePesto.webp": "/room69/static/media/kurFilePesto.4a93079e81f3022f53a2.webp",
     "static/media/santOrsola.webp": "/room69/static/media/santOrsola.1b03fc4edda53f64d00f.webp",
     "static/media/bardolino.webp": "/room69/static/media/bardolino.fc7b3bc0623f6b3b2ced.webp",
@@ -195,10 +195,10 @@
     "static/media/lemMalina.webp": "/room69/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/room69/index.html",
     "main.85a7beaa.css.map": "/room69/static/css/main.85a7beaa.css.map",
-    "main.569d8522.js.map": "/room69/static/js/main.569d8522.js.map"
+    "main.b79dec2c.js.map": "/room69/static/js/main.b79dec2c.js.map"
   },
   "entrypoints": [
     "static/css/main.85a7beaa.css",
-    "static/js/main.569d8522.js"
+    "static/js/main.b79dec2c.js"
   ]
 }
