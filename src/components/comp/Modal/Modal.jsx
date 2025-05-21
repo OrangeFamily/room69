@@ -52,7 +52,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
           src={objectModal.src || oops}
           alt={objectModal.title || 'Image not available'}
           // className={s.imgSize}
-          className={`${s.imgSize} ${objectModal.category === 'Коктейлі' ? s.imgSizeCoct : ''}`}
+          className={`${s.imgSize} ${['Коктейлі', 'Суші'].includes(objectModal.category) ? s.imgSizeCoct : ''}`}
           onLoad={handleImageLoad}
           style={{ display: isImageLoading ? 'none' : 'block' }}
         />

@@ -163,6 +163,304 @@ export const menuData = [
       },
     ],
   },
+
+
+
+{
+    category: 'Суші',
+    subcategories: [
+      {
+        subcategory: 'суші-бургери',
+        items: [
+          // {
+          //     id:1,
+          //     title:"Бургер з крабом і манго 300г",
+          //     //  price2:"345 грн",
+          //     price:"360 грн",
+          //     src: require('../img/burgkrabmango.jpg'),
+          //     text:"норі, рис, сухарі панко, кляр темпура, крем-сир, краб-крем, манго, сир чеддер, соус унаги і солодкий чілі",
+          // zvd: 'orangery',},
+
+          {
+            id: 2,
+            title: 'Бургер з тунцем 300г',
+            // price2:"345 грн",
+            price: '360 грн',
+            src: require('../img/burgtunec.jpg'),
+            text: 'норі, рис, сухарі панко, кляр темпура, огірок, крем-сир, тунець, сир чеддер, соус солодкий чілі',
+            zvd: 'orangery',
+          },
+          {
+            id: 3,
+            title: 'Бургер з лососем 300г',
+            // price2:"360 грн",
+            price: '360 грн',
+            src: require('../img/burglosos.jpg'),
+            text: 'норі, рис, сухарі панко, кляр темпура, крем-сир, лосось, авокадо, сир чеддер, соус унагі',
+            zvd: 'orangery',
+          },
+        ],
+      },
+      {
+        subcategory: 'Дракони',
+        items: [
+          {
+            id: 1,
+            title: 'Рол «Зелений дракон» 280г',
+            price: '329 грн',
+            src: require('../img/zeldrak.jpg'),
+            text: 'рис, норі, авокадо, лосось, ікорний продукт, соус «унагі», кунжут',
+            zvd: 'orangery',
+          },
+          {
+            id: 2,
+            title: 'Рол «Чорний дракон» 270г',
+            price: '369 грн',
+            src: require('../img/cherndrak.jpg'),
+            text: 'норі, рис, вугор, лосось, ікорний продукт, огірок, авокадо, кунжут, соус «унагі»',
+            zvd: 'orangery',
+          },
+
+          {
+            id: 3,
+            title: 'Рол «Червоний дракон» 270г',
+            price: '369 грн',
+            src: require('../img/krasndrak.jpg'),
+            text: 'норі, рис, авокадо, огірок, лосось, вугор, майонез, ікорний продукт',
+            zvd: 'orangery',
+          },
+          {
+            id: 4,
+            title: 'Рол «пінк дракон» 270г',
+            price: '369 грн',
+            src: require('../img/pinkRoll.jpg'),
+            text: 'норі, рис, авокадо, огірок, тунець, вугор, майонез, ікорний продукт, соус Ширача',
+            zvd: 'orangery',
+          },
+        ],
+      },
+      {
+        subcategory: 'Гарячі роли',
+        items: [
+          {
+            id: 5,
+            title: 'Футомакі з тунцем в темпурі 400г',
+            price: '330 грн',
+            isNew: true,
+            src: require('../img/futlostemp.jpg'),
+            text: 'рис, тунець, крем-сир, авокадо, огірок, темпура, норі',
+            zvd: 'orangery',
+          },
+          {
+            id: 1,
+            title: 'Футомакі з вугрем в темпурі 300г',
+            price: '350 грн',
+            src: require('../img/futugortemp.jpg'),
+            text: 'рис, вугор, крем-сир, огірок, темпура, норі, соус унагі, соус чилі солодкий',
+            zvd: 'orangery',
+          },
+          {
+            id: 2,
+            title: 'Футомакі з лососем в темпурі 400г',
+            price: '330 грн',
+            src: require('../img/futlostemp.jpg'),
+            text: 'рис, лосось, крем-сир, авокадо, огірок, темпура, норі',
+            zvd: 'orangery',
+          },
+
+          {
+            id: 3,
+            title: 'Футомакі з креветкою та лососем в темпурі 380г',
+            price: '360 грн',
+            src: require('../img/futloskrevtemp.jpg'),
+            text: 'рис, лосось, креветки, авокадо, огірок, темпура, норі, соус чилі солодкий, соус спайс ',
+            zvd: 'orangery',
+          },
+          {
+            id: 4,
+            title: 'Макі з креветкою в темпурі 200г',
+            price: '270 грн',
+            src: require('../img/makikrevtemp.jpg'),
+            text: 'рис, креветки, крем-сир, соус спайс, ікорний продукт, темпура, норі ',
+            zvd: 'orangery',
+          },
+        ],
+      },
+      {
+        subcategory: 'Роли Філадельфія',
+        items: [
+          {
+            id: 1,
+            title: '«Філадельфія» з лососем 250г',
+            price: '350 грн',
+            src: require('../img/filalosoavok.jpg'),
+            text: 'норі, рис, крем-сир, авокадо, ікорний продукт, лосось',
+            zvd: 'orangery',
+          },
+          {
+            id: 2,
+            title: '«Філадельфія» з лососем та огірком 250г',
+            price: '355 грн',
+            src: require('../img/filalosogur.jpg'),
+            text: 'норі, рис, крем-сир, ікорний продукт, лосось, огірок',
+            zvd: 'orangery',
+          },
+          {
+            id: 3,
+            title: '«Філадельфія» з тигровою креветкою 300г',
+            isNew: true,
+            price: '365 грн',
+            src: require('../img/filakrevetka.jpg'),
+            text: 'норі, рис ,крем-сир, лосось, тигрова креветка, огірок, ікра масага',
+            zvd: 'orangery',
+          },
+          {
+            id: 4,
+            title: '«Філадельфія» з лососем в ікрі 270г',
+            isNew: true,
+            price: '355 грн',
+            src: require('../img/filalosvikre.jpg'),
+            text: 'норі, рис, крем-сир,ікра масага, огірок, лосось',
+            zvd: 'orangery',
+          },
+          {
+            id: 5,
+            title: '«Філадельфія» з вугрем 250г',
+            price: '385 грн',
+            src: require('../img/filaugoravok.jpg'),
+            text: 'норі, рис, крем-сир, авокадо, вугор, ікорний продукт, соус «унагі», кунжут',
+            zvd: 'orangery',
+          },
+          {
+            id: 6,
+            title: 'Рол Туна 270г',
+            isNew: true,
+            price: '360 грн',
+            src: require('../img/roltuna.jpg'),
+            text: 'норі, рис, огірок, ікра масага, крем-сир, тунець',
+            zvd: 'orangery',
+          },
+          {
+            id: 7,
+            title: `«Філадельфія» з тунцем в ікрі 270г`,
+            isNew: true,
+            price: '350 грн',
+            src: require('../img/filatunec.jpg'),
+            text: 'норі, рис, крем-сир, тунець, ікра масага, огірок',
+            zvd: 'orangery',
+          },
+        ],
+      },
+      {
+        subcategory: 'Авторські роли',
+        items: [
+          {
+            id: 28,
+            title: 'Рол «Грін» (гострий) 290г',
+            isNew: true,
+            price: '320 грн',
+            src: require('../img/rolgreen.jpg'),
+            text: 'норі, рис, огірок, крем-сир,лосось,тунець,авокадо, соус кімчі, ікра масага',
+            zvd: 'orangery',
+          },
+          // {
+          //     id:29,
+          //     title:"Рол Orange 300г",
+          //     isNew: true,
+          //     price:"350 грн",
+          //     src: require('../img/rolorange.jpg'),
+          //     text:"норі, рис, крем-сир, лосось, вугор, апельсин, соус унагі, соус солодкий чілі, кунжут",
+          // zvd: 'orangery',},
+          // {
+          //     id:30,
+          //     title:"Рол Крабс 250г",
+          //     isNew: true,
+          //     price:"265 грн",
+          //     src: require('../img/rolkarabas.jpg'),
+          //     text:"норі, рис, авокадо, крабовий крем,ікра масага",
+          // zvd: 'orangery',},
+          // {
+          //     id:31,
+          //     title:"Рол «Інь-янь» 260г",
+          //     isNew: true,
+          //     price:"300 грн",
+          //     src: require('../img/inyan.jpg'),
+          //     text:"норі, рис, огірок, ікра масага, вугор, кунжут, крем-сир, соус унагі",
+          // zvd: 'orangery',},
+          // {
+          //     id:23,
+          //     title:"Рол з манго та креветкою 265г",
+          //     isNew: true,
+          //     price:"330 грн",
+          //     src: require('../img/rolmango.jpg'),
+          //     text:"норі, рис, крем-сир, манго, ікра масага, тигрова креветка, Унагі",
+          // zvd: 'orangery',},
+          // {
+          //     id:26,
+          //     title:"Опалений рол з манго 290г",
+          //     isNew: true,
+          //     price:"328 грн",
+          //     src: require('../img/obpflvango.jpg'),
+          //     text:"норі, рис, крем-сир, лосось, манго, ікра масага",
+          // zvd: 'orangery',},
+          {
+            id: 1,
+            title: 'Фірмовий рол «Оранжерея» 270г',
+            price: '350 грн',
+            src: require('../img/orangereya.jpg'),
+            text: 'норі, рис, крем-сир, лосось, огірок, ікорний продукт, «чука», горіховий соус',
+            zvd: 'orangery',
+          },
+          // {
+          //     id:15,
+          //     title:"«Гейша» 280г",
+          //     price:"300 грн",
+          //     src:require('../img/geysha.jpg'),
+          //     text:"норі, рис, креветка, крем-сир, ікорний продукт, огірок, крабовий крем",
+          // zvd: 'orangery',},
+          {
+            id: 17,
+            title: 'Рол з обпаленим лососем 290г',
+            price: '369 грн',
+            src: require('../img/rolobplas.jpg'),
+            text: 'рис, авокадо, соус спайс, огірок, лосось, норі ',
+            zvd: 'orangery',
+          },
+          // {
+          //     id:18,
+          //     title:"Рол «Кімамі» (гострий) 250г",
+          //     price:"279 грн",
+          //     src:require('../img/kimami.jpg'),
+          //     text:"рис, лосось, авокадо, огірок, соус спайс, соус шрірача, кунжут, норі ",
+          // zvd: 'orangery',},
+          // {
+          //     id:19,
+          //     title:"Рол «Asama» 300г",
+          //     price:"299 грн",
+          //     src:require('../img/asama.jpg'),
+          //     text:"рис, крабовий крем, ананас, лосось, норі, арахіс",
+          // zvd: 'orangery',},
+          // {
+          //   id: 20,
+          //   title: 'Рол «Yoko» 320г',
+          //   price: '349 грн',
+          //   src: require('../img/yokko.jpg'),
+          //   text: 'рис, крем-сир, вугор, огірок, авокадо, манго, соус унагі, пластівці мигдальні, норі ',
+          //   zvd: 'orangery',
+          // },
+        ],
+      },
+    ],
+  },
+
+
+
+
+
+
+
+
+
   {
     category: 'Кухня',
     subcategories: [
