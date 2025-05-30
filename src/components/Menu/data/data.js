@@ -745,10 +745,10 @@ export const menuData = [
           // },
           {
             id: 9,
-            title: 'Сирні палички 150г NEW',
+            title: 'Сирні палички 150г',
             price: '160 грн',
             src: require('../img/sirpalki.jpg'),
-            text: '',
+            text: 'соус вишневий',
             zvd: 'orangery',
           },
           {
