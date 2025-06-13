@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.85a7beaa.css",
-    "main.js": "/room69/static/js/main.d9946e75.js",
+    "main.js": "/room69/static/js/main.7bb1312e.js",
     "static/media/ribneFile.jpg": "/room69/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/room69/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/room69/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -150,6 +150,7 @@
     "static/media/ginorange.webp": "/room69/static/media/ginorange.c79b5795e4db49d863a5.webp",
     "static/media/zubrovka.webp": "/room69/static/media/zubrovka.75026f891b91e81d5708.webp",
     "static/media/borj.webp": "/room69/static/media/borj.bae146862b5df81893fe.webp",
+    "static/media/mirinda.webp": "/room69/static/media/mirinda.6347a2b1cbd43961284c.webp",
     "static/media/metaxa.webp": "/room69/static/media/metaxa.44ae1628f2129e3ee30a.webp",
     "static/media/volare.webp": "/room69/static/media/volare.f48c2b5c14aae04dc6fc.webp",
     "static/media/mbl.webp": "/room69/static/media/mbl.213a7ba0c6f99ec05c00.webp",
@@ -222,10 +223,10 @@
     "static/media/lemMalina.webp": "/room69/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/room69/index.html",
     "main.85a7beaa.css.map": "/room69/static/css/main.85a7beaa.css.map",
-    "main.d9946e75.js.map": "/room69/static/js/main.d9946e75.js.map"
+    "main.7bb1312e.js.map": "/room69/static/js/main.7bb1312e.js.map"
   },
   "entrypoints": [
     "static/css/main.85a7beaa.css",
-    "static/js/main.d9946e75.js"
+    "static/js/main.7bb1312e.js"
   ]
 }
