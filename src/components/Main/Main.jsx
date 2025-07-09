@@ -31,9 +31,9 @@ const Main = () => {
   const [openSubcategories, setOpenSubcategories] = useState({}); // Відкриті підкатегорії
   const [showRules, setShowRules] = useState(false);
 
-  const dataModal = (title, price, text, src, category, description) => {
+  const dataModal = (title, price, text, src, category, description, zvd) => {
     toggleModal();
-    setObjectModal({ title, price, text, src, category, description });
+    setObjectModal({ title, price, text, src, category, description, zvd });
   };
 
   const toggleModal = () => {
@@ -82,14 +82,15 @@ const Main = () => {
               {category.category === 'Банкетне меню' ? (
                 <List
                   data={category.subcategories.flatMap(sub => sub.items)}
-                  onModal={(title, price, text, src, description) =>
+                  onModal={(title, price, text, src, description, zvd,) =>
                     dataModal(
                       title,
                       price,
                       text,
                       src,
                       category.category,
-                      description
+                      description,
+                      zvd,
                     )
                   }
                   category={category.category}
@@ -119,14 +120,22 @@ const Main = () => {
                       >
                         <List
                           data={subcategory.items}
-                          onModal={(title, price, text, src, description) =>
+                          onModal={(
+                            title,
+                            price,
+                            text,
+                            src,
+                            description,
+                            zvd,
+                          ) =>
                             dataModal(
                               title,
                               price,
                               text,
                               src,
                               category.category,
-                              description
+                              description,
+                              zvd,
                             )
                           }
                           subcategory={subcategory.subcategory}
