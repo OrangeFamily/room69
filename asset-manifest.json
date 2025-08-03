@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.461d2a5d.css",
-    "main.js": "/room69/static/js/main.13b5a825.js",
+    "main.js": "/room69/static/js/main.d0c7c793.js",
     "static/media/ribneFile.jpg": "/room69/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/room69/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/room69/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -82,6 +82,7 @@
     "static/media/tartaletkaGribi.webp": "/room69/static/media/tartaletkaGribi.3f2e632739c3689b99b7.webp",
     "static/media/tartaletkaIkra.webp": "/room69/static/media/tartaletkaIkra.f2e9ff7266f39af0705c.webp",
     "static/media/ciplyaTabaka.webp": "/room69/static/media/ciplyaTabaka.ac5fb031d00d5d055b2e.webp",
+    "static/media/coronaba.png": "/room69/static/media/coronaba.f288afa43ee8ef192846.png",
     "static/media/asortiSolin.webp": "/room69/static/media/asortiSolin.39da27faeafca9784a66.webp",
     "static/media/ratatuy.webp": "/room69/static/media/ratatuy.524d5d8cddce15ce19e1.webp",
     "static/media/kareTrlyatini.webp": "/room69/static/media/kareTrlyatini.864eb559008a2a730950.webp",
@@ -226,10 +227,10 @@
     "static/media/lemMalina.webp": "/room69/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/room69/index.html",
     "main.461d2a5d.css.map": "/room69/static/css/main.461d2a5d.css.map",
-    "main.13b5a825.js.map": "/room69/static/js/main.13b5a825.js.map"
+    "main.d0c7c793.js.map": "/room69/static/js/main.d0c7c793.js.map"
   },
   "entrypoints": [
     "static/css/main.461d2a5d.css",
-    "static/js/main.13b5a825.js"
+    "static/js/main.d0c7c793.js"
   ]
 }
