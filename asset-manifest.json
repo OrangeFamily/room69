@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.461d2a5d.css",
-    "main.js": "/room69/static/js/main.d0c7c793.js",
+    "main.js": "/room69/static/js/main.e76bf930.js",
     "static/media/ribneFile.jpg": "/room69/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/room69/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/room69/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -50,7 +50,6 @@
     "static/media/teksunr.jpg": "/room69/static/media/teksunr.7f0f3c7428e28836ae36.jpg",
     "static/media/feya.jpg": "/room69/static/media/feya.a482b76bcc0519e8eb1c.jpg",
     "static/media/mimoza.jpg": "/room69/static/media/mimoza.91841adfff5114ecbbae.jpg",
-    "static/media/BlackandWhite.jpg": "/room69/static/media/BlackandWhite.427fb2bd300b9afe6cf6.jpg",
     "static/media/futlostemp.jpg": "/room69/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
     "static/media/manstera.jpg": "/room69/static/media/manstera.a406100be74f25c0bb1a.jpg",
     "static/media/orgazm.jpg": "/room69/static/media/orgazm.a195a5882ad7f9c75863.jpg",
@@ -112,7 +111,6 @@
     "static/media/makikrevtemp.jpg": "/room69/static/media/makikrevtemp.43cbb188b459a25c179f.jpg",
     "static/media/rolobplas.jpg": "/room69/static/media/rolobplas.4208868c60bcfbec5a3b.jpg",
     "static/media/cherndrak.jpg": "/room69/static/media/cherndrak.9f6ebaf919fca8f1cbe4.jpg",
-    "static/media/zeldrak.jpg": "/room69/static/media/zeldrak.626fe70b7b14e5b37568.jpg",
     "static/media/YsabeauSCMedium.ttf": "/room69/static/media/YsabeauSCMedium.dc5c222da04b499c7ae8.ttf",
     "static/media/krasndrak.jpg": "/room69/static/media/krasndrak.fc10e0832a9a6fed4a99.jpg",
     "static/media/Logo.png": "/room69/static/media/Logo.76c81808589a7be3e2af.png",
@@ -211,7 +209,6 @@
     "static/media/telyanimaSGribami.webp": "/room69/static/media/telyanimaSGribami.0eb268a039c36d8607b8.webp",
     "static/media/karpachoTun.webp": "/room69/static/media/karpachoTun.d64525511199a1135a17.webp",
     "static/media/setesollikr.webp": "/room69/static/media/setesollikr.b06710909c2ed630f7d9.webp",
-    "static/media/shashlYakitori.webp": "/room69/static/media/shashlYakitori.e90712345918ce1c1703.webp",
     "static/media/pastaGrushaGargonzola.webp": "/room69/static/media/pastaGrushaGargonzola.bd57000cba0fa820c1cc.webp",
     "static/media/nisuaz.webp": "/room69/static/media/nisuaz.5b260f676bd581933bfa.webp",
     "static/media/fruktAssorti.webp": "/room69/static/media/fruktAssorti.a7cc891f6fedbf10ae69.webp",
@@ -227,10 +224,10 @@
     "static/media/lemMalina.webp": "/room69/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/room69/index.html",
     "main.461d2a5d.css.map": "/room69/static/css/main.461d2a5d.css.map",
-    "main.d0c7c793.js.map": "/room69/static/js/main.d0c7c793.js.map"
+    "main.e76bf930.js.map": "/room69/static/js/main.e76bf930.js.map"
   },
   "entrypoints": [
     "static/css/main.461d2a5d.css",
-    "static/js/main.d0c7c793.js"
+    "static/js/main.e76bf930.js"
   ]
 }
