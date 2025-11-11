@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.461d2a5d.css",
-    "main.js": "/room69/static/js/main.ca25cb08.js",
+    "main.js": "/room69/static/js/main.832134cf.js",
     "static/media/ribneFile.jpg": "/room69/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/room69/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/room69/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -136,7 +136,6 @@
     "static/media/saladKurPech.webp": "/room69/static/media/saladKurPech.d031418109a00e937336.webp",
     "static/media/jdh.webp": "/room69/static/media/jdh.f3734686d340ab1428ab.webp",
     "static/media/bels.webp": "/room69/static/media/bels.fa986881b43df7bbf770.webp",
-    "static/media/somers.webp": "/room69/static/media/somers.c72d5a97f331b6f29de9.webp",
     "static/media/gordons.webp": "/room69/static/media/gordons.5fb90fe780074787203c.webp",
     "static/media/midiiPidSirShapk.webp": "/room69/static/media/midiiPidSirShapk.2266b9a2446e8e29301b.webp",
     "static/media/glen.webp": "/room69/static/media/glen.192d16a1f4062ac516ab.webp",
@@ -224,10 +223,10 @@
     "static/media/lemMalina.webp": "/room69/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/room69/index.html",
     "main.461d2a5d.css.map": "/room69/static/css/main.461d2a5d.css.map",
-    "main.ca25cb08.js.map": "/room69/static/js/main.ca25cb08.js.map"
+    "main.832134cf.js.map": "/room69/static/js/main.832134cf.js.map"
   },
   "entrypoints": [
     "static/css/main.461d2a5d.css",
-    "static/js/main.ca25cb08.js"
+    "static/js/main.832134cf.js"
   ]
 }
