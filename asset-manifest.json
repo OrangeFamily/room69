@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/room69/static/css/main.461d2a5d.css",
-    "main.js": "/room69/static/js/main.ad6a2b16.js",
+    "main.js": "/room69/static/js/main.8777575f.js",
     "static/media/ribneFile.jpg": "/room69/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/room69/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/room69/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -58,11 +58,13 @@
     "static/media/zapecheniyzmidieu.jpg": "/room69/static/media/zapecheniyzmidieu.d348971575d67fc47140.jpg",
     "static/media/kolada.jpg": "/room69/static/media/kolada.2004fb5b521f0bdb86cf.jpg",
     "static/media/milkshake.jpg": "/room69/static/media/milkshake.2cb7319b72c7e140a17d.jpg",
+    "static/media/solodkiyshoko.jpg": "/room69/static/media/solodkiyshoko.33c83d20a076d7e22764.jpg",
     "static/media/Pinklady.jpg": "/room69/static/media/Pinklady.50a39679bfd6fd31bc5c.jpg",
     "static/media/jungl.jpg": "/room69/static/media/jungl.727407fc3096d3855b94.jpg",
     "static/media/long.jpg": "/room69/static/media/long.ba8896cff2d14ac6a4dc.jpg",
     "static/media/peachAper.jpg": "/room69/static/media/peachAper.b28aa0ab12a8c0327b19.jpg",
     "static/media/whiteDragon.jpg": "/room69/static/media/whiteDragon.d68b9a6e8a1646cc5309.jpg",
+    "static/media/solodkiysunset.jpg": "/room69/static/media/solodkiysunset.9268b8f1db66d92d0ffa.jpg",
     "static/media/filazmaslyan.jpg": "/room69/static/media/filazmaslyan.af1d621ed1e70baf2b49.jpg",
     "static/media/tiramisu.jpg": "/room69/static/media/tiramisu.ad638521b4c9dc2110f6.jpg",
     "static/media/raf.jpg": "/room69/static/media/raf.c79bfb5401227abf97f5.jpg",
@@ -85,7 +87,6 @@
     "static/media/coronaba.png": "/room69/static/media/coronaba.f288afa43ee8ef192846.png",
     "static/media/asortiSolin.webp": "/room69/static/media/asortiSolin.39da27faeafca9784a66.webp",
     "static/media/ratatuy.webp": "/room69/static/media/ratatuy.524d5d8cddce15ce19e1.webp",
-    "static/media/kareTrlyatini.webp": "/room69/static/media/kareTrlyatini.864eb559008a2a730950.webp",
     "static/media/lososZapecheniy.webp": "/room69/static/media/lososZapecheniy.fb095607d2b5cb6d60f9.webp",
     "static/media/stakeSvinini.webp": "/room69/static/media/stakeSvinini.413dd67752b844768678.webp",
     "static/media/filakrevetka.jpg": "/room69/static/media/filakrevetka.f4787e7100df9a0a0130.jpg",
@@ -225,10 +226,10 @@
     "static/media/lemMalina.webp": "/room69/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/room69/index.html",
     "main.461d2a5d.css.map": "/room69/static/css/main.461d2a5d.css.map",
-    "main.ad6a2b16.js.map": "/room69/static/js/main.ad6a2b16.js.map"
+    "main.8777575f.js.map": "/room69/static/js/main.8777575f.js.map"
   },
   "entrypoints": [
     "static/css/main.461d2a5d.css",
-    "static/js/main.ad6a2b16.js"
+    "static/js/main.8777575f.js"
   ]
 }
