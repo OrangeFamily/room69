@@ -76,7 +76,7 @@ export const menuData = [
           {
             id: 4,
             title: 'Рол «пінк дракон» 270г',
-            price: '390 грн',
+            price: '420 грн',
             src: require('../img/pinkRoll.jpg'),
             text: 'норі, рис, авокадо, огірок, тунець, вугор, майонез, ікорний продукт, соус Ширача',
             zvd: 'orangery',
@@ -172,7 +172,7 @@ export const menuData = [
           {
             id: 1,
             title: '«Філадельфія» з лососем 250г',
-            price: '380 грн',
+            price: '400 грн',
             src: require('../img/filalosoavok.jpg'),
             text: 'норі, рис, крем-сир, авокадо, ікорний продукт, лосось',
             zvd: 'orangery',
@@ -180,7 +180,7 @@ export const menuData = [
           {
             id: 2,
             title: '«Філадельфія» з лососем та огірком 250г',
-            price: '375 грн',
+            price: '390 грн',
             src: require('../img/filalosogur.jpg'),
             text: 'норі, рис, крем-сир, ікорний продукт, лосось, огірок',
             zvd: 'orangery',
@@ -189,7 +189,7 @@ export const menuData = [
             id: 3,
             title: '«Філадельфія» з тигровою креветкою 300г',
             isNew: true,
-            price: '379 грн',
+            price: '390 грн',
             src: require('../img/filakrevetka.jpg'),
             text: 'норі, рис ,крем-сир, лосось, тигрова креветка, огірок, ікра масага',
             zvd: 'orangery',
@@ -206,7 +206,7 @@ export const menuData = [
           {
             id: 5,
             title: '«Філадельфія» з вугрем 250г',
-            price: '400 грн',
+            price: '450 грн',
             src: require('../img/filaugoravok.jpg'),
             text: 'норі, рис, крем-сир, авокадо, вугор, ікорний продукт, соус «унагі», кунжут',
             zvd: 'orangery',
